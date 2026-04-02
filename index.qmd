@@ -1,7 +1,9 @@
 ---
-title: "ojreece.github.io"
+title: "Oliver Reece"
 ---
 
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+Add: Professional Picture, brief intro, LinkedIn, Gmail, GitHub
