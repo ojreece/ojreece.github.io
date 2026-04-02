@@ -1,5 +1,5 @@
 ---
-title:"Projects"
+title: "Projects"
 ---
 
-Projects:
+Add: Quality Projects from throughout undergrad 
