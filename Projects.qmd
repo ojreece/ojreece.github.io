@@ -22,7 +22,7 @@ This is a poster created using the package posterdown. It contains a brief summa
 The Split-Apply-Combine Strategy for Data Analysis by Hadley Wickham. This was a collaborative project, worked on with
 Tahana Akram, a fellow student in CMSC405.
 
-[View on GitHub](https://github.com/ADC-405-S26/Project_5_PaperPoster_Team_11){.btn .btn-outline-primary}
+[View on GitHub](https://github.com/ADC-405-S26/Project_5_PaperPoster_Team_11.git){.btn .btn-outline-primary}
 
 ---
 
@@ -48,7 +48,7 @@ I intend to update this package post-graduation to include many more functions.
 This was a collaborative project with Nga Nguyen (Daisy), a fellow student. We aimed to use data visualisation and sentiment analysis to investigate 
 trends within the Harry Potter Series, specifically within the text itself. 
 
-[View on GitHub](https://github.com/ADC-405-S26/Project_3_TextAnalysis_Team_14){.btn .btn-outline-primary}
+[View on GitHub](https://github.com/ADC-405-S26/Project_3_TextAnalysis_Team_14.git){.btn .btn-outline-primary}
 
 ---
 
@@ -57,7 +57,7 @@ trends within the Harry Potter Series, specifically within the text itself.
 Working with Binh Vu, a classmate, this project was an introduction to SQL functions. We used SQL Queries, DuckDB, and Visualisation in RStudio 
 to analyze the TidyTuesday survey data on how individuals interpret probabilistic language. 
 
-[View on GitHub](https://github.com/ADC-405-S26/Project_2_SQL_Team_10){.btn .btn-outline-primary}
+[View on GitHub](https://github.com/ADC-405-S26/Project_2_SQL_Team_10.git){.btn .btn-outline-primary}
 
 ---
 

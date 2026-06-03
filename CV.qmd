@@ -2,4 +2,8 @@
 title: "CV"
 ---
 
-<iframe src="files/ReeceCV.pdf" width="100%" height="800px"></iframe>
+<iframe src="files/ReeceCV.pdf" width="100%" height="800px"></iframe> 
+
+<!-- 
+the above layout was sourced from Gemini 3.1 Pro. It lets me show CV as a pdf on the website
+-->
