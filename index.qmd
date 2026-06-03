@@ -5,17 +5,17 @@ about:
   image: files/photo.jpeg 
   links:
     - icon: github
-        text: GitHub
-        href: https://github.com/ojreece
+      text: GitHub
+      href: https://github.com/ojreece
     - icon: linkedin
-        text: LinkedIn
-        href: https://linkedin.com/in/oliver-reece
+      text: LinkedIn
+      href: https://linkedin.com/in/oliver-reece
     - icon: envelope-fill
-        text: Email
-        href: mailto:oliver.j.reece66@gmail.com
+      text: Email
+      href: mailto:oliver.j.reece66@gmail.com
     - icon: person-fencing
-        text: Fencing
-        href: https://vikings.lawrence.edu/sports/mens-fencing/roster/oliver-reece/4376
+      text: Fencing
+      href: https://vikings.lawrence.edu/sports/mens-fencing/roster/oliver-reece/4376
 ---
 
 ## Welcome!
