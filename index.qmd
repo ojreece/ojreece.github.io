@@ -23,4 +23,7 @@ I have competed on the NCAA DIII Men's Fencing Team for all four years.
 
 This website serves as a look into my professional life, with topics ranging from academic projects to work experience. 
 
+If you are curious what's going on behind the curtain, feel free to check out my website's github repo!
+[View on GitHub](https://github.com/ojreece/ojreece.github.io){.btn .btn-outline-primary}
+
 
