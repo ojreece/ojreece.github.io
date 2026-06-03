@@ -1,5 +1,31 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+## Background
+
+My name is Oliver Reece and I am an Economics and Data Science student at Lawrence University. 
+Upon graduation, I look to enter into finance, specifically as an Investment Analyst or Private Equity Analyst where I can apply
+and develop further the tools my courses have given while also making a real-world impact.
+
+## Interests
+
+- Data Analysis and Data Manipulation
+- Machine learning and Predictive Modeling  
+- Economics & Quantitative Research
+- Investment and Portfolio Management
+- Financial Modelling
+
+## Extracurricular Interests
+
+- Snowboarding
+- Mountain Biking
+- Football (Soccer)
+- Fencing
+- Hiking
+- Camping
+
+## Contact Information
+
+If you need to reach me, feel free to reach me at my email: [email](mailto:oliver.j.reece66@gmail.com)
+or via LinkedIn: [LinkedIn](https://linkedin.com/in/oliver-reece).

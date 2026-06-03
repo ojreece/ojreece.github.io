@@ -1,9 +1,26 @@
 ---
 title: "Oliver Reece"
+about:
+  template: trestles
+  image: images/profile.jpg 
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/ojreece
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/oliver-reece
+    - icon: envelope-fill
+      text: Email
+      href: mailto:oliver.j.reece66@gmail.com
 ---
 
-This is a Quarto website.
+## Welcome!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am a fourth-year student athlete at Lawrence University. 
+I expect to graduate on June 14th, 2026 with a B.A. Quantitative Economics and a minor in Data Science. 
+I have competed on the NCAA DIII Men's Fencing Team for all four years. 
 
-Add: Professional Picture, brief intro, LinkedIn, Gmail, GitHub
+This website serves as a look into my professional life, with topics ranging from academic projects to work experience. 
+
+
