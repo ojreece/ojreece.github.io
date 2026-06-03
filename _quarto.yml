@@ -12,7 +12,7 @@ website:
         text: About
       - href: Projects.qmd
         text: Projects
-      - href: cv.qmd
+      - href: CV.qmd
         text: CV
 
 format:
