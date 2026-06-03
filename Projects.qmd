@@ -2,10 +2,12 @@
 title: "Projects"
 ---
 
-This page contains completed projects from my courses at Lawrence University
+This page contains completed projects from my courses at Lawrence University. 
 
 ::: {.callout-note collapse="true"}
 ## CMSC405: Advanced Data Computing
+
+NOTE: These are private GitHub repos for the course. As such, only members of the course will have access to the GitHub link.
 
 ### R-Package Presentation
 
@@ -23,6 +25,7 @@ The Split-Apply-Combine Strategy for Data Analysis by Hadley Wickham. This was a
 Tahana Akram, a fellow student in CMSC405.
 
 [View on GitHub](https://github.com/ADC-405-S26/Project_5_PaperPoster_Team_11.git){.btn .btn-outline-primary}
+[View on RPubs](https://rpubs.com/reeceo/adc-poster){.btn .btn-outline-primary}
 
 ---
 
