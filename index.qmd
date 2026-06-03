@@ -2,7 +2,7 @@
 title: "Oliver Reece"
 about:
   template: trestles
-  image: images/profile.jpg 
+  image: files/photo.jpeg 
   links:
     - icon: github
       text: GitHub

@@ -1,10 +1,10 @@
 ---
 title: "Projects"
-sort: "date desc"
 ---
 
 This page contains completed projects from my courses at Lawrence University
 
+::: {.callout-note collapse="true"}
 ## CMSC405: Advanced Data Computing
 
 ### R-Package Presentation
@@ -38,7 +38,8 @@ The name stems from this: "pe" = private equity, "gap" = gap in the field. Curre
 I intend to update this package post-graduation to include many more functions.
 
 [View on GitHub](https://github.com/ADC-405-S26/pegap){.btn .btn-outline-primary}
-https://adc-405-s26.github.io/pegap/
+[View Package](https://adc-405-s26.github.io/pegap/){.btn .btn-outline-primary}
+
 
 ---
 
@@ -60,8 +61,11 @@ to analyze the TidyTuesday survey data on how individuals interpret probabilisti
 
 ---
 
+:::
+
+::: {.callout-note collapse="true"}
 ## ECON602: Senior Research Experience
-### Capstone — [Effect of Legalising Recreational Marijuana on State Employment]
+### Capstone — Effect of Legalising Recreational Marijuana on State Employment
 
 Research Question: Does legalising recreational marijuana have an impact on state-level employment?
 
@@ -77,3 +81,4 @@ Final Dataset included economic, demographic, geographic controls for all 50 sta
 [View Capstone PDF](files/capstone.pdf){.btn .btn-outline-primary}
 
 ---
+:::
