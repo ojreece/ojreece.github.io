@@ -2,22 +2,71 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "My name is Oliver Reece and I am an Economics and Data Science student at Lawrence University. Upon graduation, I look to enter into finance, specifically as an Investment Analyst or Private Equity Analyst where I can apply and develop further the tools my courses have given while also making a real-world impact."
   },
   {
-    "objectID": "ba-projects.html",
-    "href": "ba-projects.html",
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "",
+    "text": "My name is Oliver Reece and I am an Economics and Data Science student at Lawrence University. Upon graduation, I look to enter into finance, specifically as an Investment Analyst or Private Equity Analyst where I can apply and develop further the tools my courses have given while also making a real-world impact."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About Me",
+    "section": "Interests",
+    "text": "Interests\n\nData Analysis and Data Manipulation\nMachine learning and Predictive Modeling\n\nEconomics & Quantitative Research\nInvestment and Portfolio Management\nFinancial Modelling"
+  },
+  {
+    "objectID": "about.html#extracurricular-interests",
+    "href": "about.html#extracurricular-interests",
+    "title": "About Me",
+    "section": "Extracurricular Interests",
+    "text": "Extracurricular Interests\n\nSnowboarding\nMountain Biking\nFootball (Soccer)\nFencing\nHiking\nCamping"
+  },
+  {
+    "objectID": "about.html#contact-information",
+    "href": "about.html#contact-information",
+    "title": "About Me",
+    "section": "Contact Information",
+    "text": "Contact Information\nIf you need to reach me, feel free to reach me at my email: email or via LinkedIn: LinkedIn."
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Add: Quality Projects from throughout undergrad"
+    "text": "This page contains completed projects from my courses at Lawrence University"
+  },
+  {
+    "objectID": "Projects.html#cmsc405-advanced-data-computing",
+    "href": "Projects.html#cmsc405-advanced-data-computing",
+    "title": "Projects",
+    "section": "CMSC405: Advanced Data Computing",
+    "text": "CMSC405: Advanced Data Computing\n\nR-Package Presentation\nThis is a presentation made with Quarto in RStudio. In it, I explore the basics of KPolen, an R package made by Karl Polen for private equity mathemetical computation and portfolio analysis.\nView on RPubs\n\n\n\nArticle Summary Poster\nThis is a poster created using the package posterdown. It contains a brief summary of the article: The Split-Apply-Combine Strategy for Data Analysis by Hadley Wickham. This was a collaborative project, worked on with Tahana Akram, a fellow student in CMSC405.\nView on GitHub\n\n\n\nR-Package “pegap”\npegap is a package developed by myself in an effort to cover the gaps in private equity portfolio analysis in R. The name stems from this: “pe” = private equity, “gap” = gap in the field. Currently, the package contains the following functions:\n\nvintage_diversification_score() — scores how concentrated a PE portfolio is across vintage years using HHI\nunfunded_liability_schedule() — forecasts future capital calls across a 5-year schedule with a preset drawdown curve\nportfolio_plot() — visualises portfolio progress by vintage year as a scatterplot\n\nI intend to update this package post-graduation to include many more functions.\nView on GitHub https://adc-405-s26.github.io/pegap/\n\n\n\nProject 3 - Text Analysis\nThis was a collaborative project with Nga Nguyen (Daisy), a fellow student. We aimed to use data visualisation and sentiment analysis to investigate trends within the Harry Potter Series, specifically within the text itself.\nView on GitHub\n\n\n\nProject 2 - SQL\nWorking with Binh Vu, a classmate, this project was an introduction to SQL functions. We used SQL Queries, DuckDB, and Visualisation in RStudio to analyze the TidyTuesday survey data on how individuals interpret probabilistic language.\nView on GitHub"
+  },
+  {
+    "objectID": "Projects.html#econ602-senior-research-experience",
+    "href": "Projects.html#econ602-senior-research-experience",
+    "title": "Projects",
+    "section": "ECON602: Senior Research Experience",
+    "text": "ECON602: Senior Research Experience\n\nCapstone — [Effect of Legalising Recreational Marijuana on State Employment]\nResearch Question: Does legalising recreational marijuana have an impact on state-level employment?\nMethodology: Difference-in-Differences model using state and year fixed effects\nHow: Utilised event study graphs, regression tables, and propensity score matching in RStudio\nData: Tidied, wrangled, and processed over 300,000 observations across 25 variables.\nFinal Dataset included economic, demographic, geographic controls for all 50 states between the years 2000-2022. These included variables such as GDP, Population, Race, and Region.\nView Capstone PDF"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Oliver Reece",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nAdd: Professional Picture, brief intro, LinkedIn, Gmail, GitHub"
+    "text": "I am a fourth-year student athlete at Lawrence University. I expect to graduate on June 14th, 2026 with a B.A. Quantitative Economics and a minor in Data Science. I have competed on the NCAA DIII Men’s Fencing Team for all four years.\nThis website serves as a look into my professional life, with topics ranging from academic projects to work experience."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Oliver Reece",
+    "section": "",
+    "text": "I am a fourth-year student athlete at Lawrence University. I expect to graduate on June 14th, 2026 with a B.A. Quantitative Economics and a minor in Data Science. I have competed on the NCAA DIII Men’s Fencing Team for all four years.\nThis website serves as a look into my professional life, with topics ranging from academic projects to work experience."
   }
 ]
