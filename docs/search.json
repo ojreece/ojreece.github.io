@@ -54,5 +54,19 @@
     "title": "About Me",
     "section": "Contact Information",
     "text": "Contact Information\nIf you need to reach me, feel free to reach me at my email: email or via LinkedIn: LinkedIn."
+  },
+  {
+    "objectID": "about.html#academic-interests",
+    "href": "about.html#academic-interests",
+    "title": "About Me",
+    "section": "Academic Interests",
+    "text": "Academic Interests\n\nData Analysis and Data Manipulation\nMachine learning and Predictive Modeling\n\nEconomics & Quantitative Research\nInvestment and Portfolio Management\nFinancial Modelling"
+  },
+  {
+    "objectID": "inProgress.html",
+    "href": "inProgress.html",
+    "title": "Oliver Reece",
+    "section": "",
+    "text": "This page is a temporary note to myself while this website remains under construction.\nSoon to be added:\n\nPersonal Projects Tab with github links and attached READMEs / RPubs links\nMore Lawrence Projects\nPictures of me doing personal interests (linked to the text)\nCertifications Tab (think Data Camp courses, Coursera, Online 1-off classes, etc)\nEducation Tab (Masters, Bachelors, High School)\nRecent Ventures Tab (like a personal blog, but for professional things. for ex, graduation experience / reflection)"
   }
 ]

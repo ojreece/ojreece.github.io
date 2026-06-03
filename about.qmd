@@ -8,7 +8,7 @@ My name is Oliver Reece and I am an Economics and Data Science student at Lawren
 Upon graduation, I look to enter into finance, specifically as an Investment Analyst or Private Equity Analyst where I can apply
 and develop further the tools my courses have given while also making a real-world impact.
 
-## Interests
+## Academic Interests
 
 - Data Analysis and Data Manipulation
 - Machine learning and Predictive Modeling  

@@ -1,1 +1,121 @@
 /* css styles */
+
+/*NOTE: CSS Styling was done with help from Claude Sonnet 4.6 */
+
+/* ── Core palette ── */
+:root {
+  --charcoal:     #2b2b2b;
+  --charcoal-mid: #3d3d3d;
+  --emerald:      #1a6b4a;
+  --emerald-light:#22875e;
+  --off-white:    #f2f2f2;
+}
+
+/* ── Page background & text ── */
+body {
+  background-color: var(--charcoal);
+  color: var(--off-white);
+}
+
+/* ── Navbar ── */
+.navbar {
+  background-color: var(--charcoal-mid) !important;
+  border-bottom: 2px solid var(--emerald);
+}
+
+.navbar-brand, .nav-link {
+  color: var(--off-white) !important;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--emerald-light) !important;
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4 {
+  color: var(--emerald-light);
+}
+
+/* ── Links ── */
+a {
+  color: var(--emerald-light);
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* ── Buttons ── */
+.btn-outline-primary {
+  color: var(--emerald-light);
+  border-color: var(--emerald-light);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--emerald);
+  border-color: var(--emerald);
+  color: #fff;
+}
+
+.btn-outline-secondary {
+  color: var(--off-white);
+  border-color: var(--off-white);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--charcoal-mid);
+  color: #fff;
+}
+
+/* ── Callout boxes ── */
+.callout {
+  background-color: var(--charcoal-mid);
+  border-left-color: var(--emerald) !important;
+}
+
+/* ── Code blocks ── */
+pre, code {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+/* ── Table of contents ── */
+#TOC a {
+  color: var(--off-white);
+}
+
+#TOC a:hover, #TOC a.active {
+  color: var(--emerald-light);
+}
+
+/* ── Callout boxes ── */
+.callout {
+  background-color: var(--charcoal-mid) !important;
+  border-left-color: var(--emerald) !important;
+  color: var(--off-white) !important;
+}
+
+.callout-header {
+  background-color: var(--charcoal-mid) !important;
+  color: var(--off-white) !important;
+}
+
+.callout-body {
+  background-color: var(--charcoal-mid) !important;
+  color: var(--off-white) !important;
+}
+
+.callout-title {
+  color: var(--off-white) !important;
+}
+/* ── Social/icon buttons ── */
+.about-link {
+  color: var(--off-white) !important;
+  border-color: var(--emerald) !important;
+}
+
+.about-link:hover {
+  background-color: var(--emerald) !important;
+  color: #fff !important;
+}
+
