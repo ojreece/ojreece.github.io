@@ -14,6 +14,13 @@
     "text": "I am a fourth-year student athlete at Lawrence University. I expect to graduate on June 14th, 2026 with a B.A. Quantitative Economics and a minor in Data Science. I have competed on the NCAA DIII Men’s Fencing Team for all four years.\nThis website serves as a look into my professional life, with topics ranging from academic projects to work experience."
   },
   {
+    "objectID": "inProgress.html",
+    "href": "inProgress.html",
+    "title": "Oliver Reece",
+    "section": "",
+    "text": "This page is a temporary note to myself while this website remains under construction.\nSoon to be added:\n\nPersonal Projects Tab with github links and attached READMEs / RPubs links\nMore Lawrence Projects\nPictures of me doing personal interests (linked to the text)\nCertifications Tab (think Data Camp courses, Coursera, Online 1-off classes, etc)\nEducation Tab (Masters, Bachelors, High School)\nRecent Ventures Tab (like a personal blog, but for professional things. for ex, graduation experience / reflection)"
+  },
+  {
     "objectID": "Projects.html",
     "href": "Projects.html",
     "title": "Projects",
@@ -35,11 +42,11 @@
     "text": "My name is Oliver Reece and I am an Economics and Data Science student at Lawrence University. Upon graduation, I look to enter into finance, specifically as an Investment Analyst or Private Equity Analyst where I can apply and develop further the tools my courses have given while also making a real-world impact."
   },
   {
-    "objectID": "about.html#interests",
-    "href": "about.html#interests",
+    "objectID": "about.html#academic-interests",
+    "href": "about.html#academic-interests",
     "title": "About Me",
-    "section": "Interests",
-    "text": "Interests\n\nData Analysis and Data Manipulation\nMachine learning and Predictive Modeling\n\nEconomics & Quantitative Research\nInvestment and Portfolio Management\nFinancial Modelling"
+    "section": "Academic Interests",
+    "text": "Academic Interests\n\nData Analysis and Data Manipulation\nMachine learning and Predictive Modeling\n\nEconomics & Quantitative Research\nInvestment and Portfolio Management\nFinancial Modelling"
   },
   {
     "objectID": "about.html#extracurricular-interests",
@@ -54,19 +61,5 @@
     "title": "About Me",
     "section": "Contact Information",
     "text": "Contact Information\nIf you need to reach me, feel free to reach me at my email: email or via LinkedIn: LinkedIn."
-  },
-  {
-    "objectID": "about.html#academic-interests",
-    "href": "about.html#academic-interests",
-    "title": "About Me",
-    "section": "Academic Interests",
-    "text": "Academic Interests\n\nData Analysis and Data Manipulation\nMachine learning and Predictive Modeling\n\nEconomics & Quantitative Research\nInvestment and Portfolio Management\nFinancial Modelling"
-  },
-  {
-    "objectID": "inProgress.html",
-    "href": "inProgress.html",
-    "title": "Oliver Reece",
-    "section": "",
-    "text": "This page is a temporary note to myself while this website remains under construction.\nSoon to be added:\n\nPersonal Projects Tab with github links and attached READMEs / RPubs links\nMore Lawrence Projects\nPictures of me doing personal interests (linked to the text)\nCertifications Tab (think Data Camp courses, Coursera, Online 1-off classes, etc)\nEducation Tab (Masters, Bachelors, High School)\nRecent Ventures Tab (like a personal blog, but for professional things. for ex, graduation experience / reflection)"
   }
 ]
