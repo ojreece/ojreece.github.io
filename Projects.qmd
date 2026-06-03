@@ -65,6 +65,7 @@ to analyze the TidyTuesday survey data on how individuals interpret probabilisti
 
 ::: {.callout-note collapse="true"}
 ## ECON602: Senior Research Experience
+
 ### Capstone — Effect of Legalising Recreational Marijuana on State Employment
 
 Research Question: Does legalising recreational marijuana have an impact on state-level employment?
