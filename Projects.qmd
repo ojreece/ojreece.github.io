@@ -4,6 +4,11 @@ title: "Projects"
 
 This page contains completed projects from my courses at Lawrence University. 
 
+This needs to be re-ordered in a logical manner, maybe by subject?
+
+Need to add CSV files for some of the projects for reproducibility / visibility / transparency
+
+
 ::: {.callout-note collapse="true"}
 ## CMSC405: Advanced Data Computing
 
@@ -85,4 +90,43 @@ Final Dataset included economic, demographic, geographic controls for all 50 sta
 [View Capstone PDF](files/capstone.pdf){.btn .btn-outline-primary}
 
 ---
+:::
+
+::: {.callout-note collapse="true"}
+## GLST100: Intro to Global Studies
+
+### Research Presentation
+[View as PDF](files/GLST_Presentation.pdf){.btn .btn-outline-primary}
+:::
+
+::: {.callout-note collapse="true"}
+## ECON226: Sports Economics & Analytics
+
+### Personal Sports Performance Analysis
+[View PDF](files/ECON226_Reece_Final_Paper.pdf){.btn .btn-outline-primary}
+:::
+
+::: {.callout-note collapse="true"}
+## GOVT496: Fascism, Nazism, Neofascism
+
+### Final Research Paper
+[View PDF](files/Fascism_Final_Paper_Reece.pdf){.btn .btn-outline-primary}
+:::
+
+::: {.callout-note collapse="true"}
+## ECON223: Quantitative Decision-Making
+
+### Excel Basic Functions Tutorial
+:::
+
+::: {.callout-note collapse="true"}
+## ECON481: Advanced Econometrics & Modeling
+
+### Final Research Paper
+:::
+
+::: {.callout-note collapse="true"}
+## CMSC205: Data Scientific Programming
+
+### Final Project (with dynamic graph)
 :::

@@ -12,3 +12,4 @@ Soon to be added:
 - Certifications Tab (think Data Camp courses, Coursera, Online 1-off classes, etc)
 - Education Tab (Masters, Bachelors, High School)
 - Recent Ventures Tab (like a personal blog, but for professional things. for ex, graduation experience / reflection)
+- Travel Log
