@@ -14,8 +14,8 @@ website:
         text: Projects
       - href: CV.qmd
         text: CV
-      - href: inProgress.qmd
-        text: Upcoming
+    # - href: inProgress.qmd
+       #text: Upcoming
 
 format:
   html:
