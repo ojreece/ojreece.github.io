@@ -112,21 +112,3 @@ Final Dataset included economic, demographic, geographic controls for all 50 sta
 ### Final Research Paper
 [View PDF](files/Fascism_Final_Paper_Reece.pdf){.btn .btn-outline-primary}
 :::
-
-::: {.callout-note collapse="true"}
-## ECON223: Quantitative Decision-Making
-
-### Excel Basic Functions Tutorial
-:::
-
-::: {.callout-note collapse="true"}
-## ECON481: Advanced Econometrics & Modeling
-
-### Final Research Paper
-:::
-
-::: {.callout-note collapse="true"}
-## CMSC205: Data Scientific Programming
-
-### Final Project (with dynamic graph)
-:::
