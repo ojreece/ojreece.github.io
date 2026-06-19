@@ -4,11 +4,6 @@ title: "Projects"
 
 This page contains completed projects from my courses at Lawrence University. 
 
-This needs to be re-ordered in a logical manner, maybe by subject?
-
-Need to add CSV files for some of the projects for reproducibility / visibility / transparency
-
-
 ::: {.callout-note collapse="true"}
 ## CMSC405: Advanced Data Computing
 

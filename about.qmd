@@ -4,9 +4,11 @@ title: "About Me"
 
 ## Background
 
-My name is Oliver Reece and I am an Economics and Data Science student at Lawrence University. 
-Upon graduation, I look to enter into finance, specifically as an Investment Analyst or Private Equity Analyst where I can apply
-and develop further the tools my courses have given while also making a real-world impact.
+My name is Oliver Reece. I hold a B.A. in Quantitative Economics, Minor in Statistics & Data Science from Lawrence University. 
+At Lawrence (outside of my studies) I competed on the NCAA Men's Fencing Team, held part-time jobs in the office of SEAL and 
+in the on-campus bar. I have a passion for investing and quantitative research, and as such hope to be able to merge these together
+into a career as an investment banking analyst or private equity analyst. In these roles I would aspire to make meaningful 
+investments that would lead to the betterment of the world I live in all while developing as an individual, an academic, and a professional.
 
 ## Academic Interests
 
@@ -17,8 +19,6 @@ and develop further the tools my courses have given while also making a real-wor
 - Financial Modelling
 
 ## Extracurricular Interests
-
-ADD PHOTOS FOR EACH!!
 
 - Snowboarding
 - Mountain Biking

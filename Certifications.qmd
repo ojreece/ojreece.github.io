@@ -1,8 +1,31 @@
 ---
-Title: Educational Attainments
+Title: Education
 ---
 
-1. Masters
-2. B.A. Quantitative Economics, Minor Data Science & Statistics
-3. High School Degree
-4. DataCamp PowerBI
+## Undergraduate Studies
+
+[**Lawrence University**]{style="font-size: 20px;"} | Appleton, WI | Sept 2022 - June 2026 <br>
+*B.A. in Quantitative Economics*, *Minor in Statistics & Data Science* <br> 
+**GPA:** 3.40/4.0
+
+**Data Analytics & ML Coursework:** 
+
+- Statistical Machine Learning
+- Data Scientific Programming
+- Quantitative Decision Making
+- Advanced Data Computing
+
+**Economics & Finance Coursework:**
+
+- Advanced Econometrics and Modelling
+- Foundations of Financial Management
+- Micro/Macroeconomics
+- Fundamentals of Accounting
+
+**Extracurricular:**
+
+- Men's NCAA Fencing Team (2022-2026)
+- Lawrence University Investment Club (2026)
+
+---
+

@@ -4,14 +4,14 @@
     "href": "Personal_Projects.html",
     "title": "Oliver Reece",
     "section": "",
-    "text": "This page contains details on projects I have completed in my free time outside of my studies.\n\nLBO\nFinancial Modeling\nCompany Evaluation\nCompany Evaluation #2\nQuizlet Finance Terminology\nEquity Research & Stock Pitching\nMORE"
+    "text": "Below are projects that were completed outside of my formal studies.\n\nLBO\nFinancial Modeling\nCompany Evaluation\nCompany Evaluation #2\nQuizlet Finance Terminology\nEquity Research & Stock Pitching\nMORE"
   },
   {
     "objectID": "Certifications.html",
     "href": "Certifications.html",
     "title": "Oliver Reece",
     "section": "",
-    "text": "Masters\nB.A. Quantitative Economics, Minor Data Science & Statistics\nHigh School Degree\nDataCamp PowerBI"
+    "text": "Lawrence University | Appleton, WI | Sept 2022 - June 2026  B.A. in Quantitative Economics, Minor in Statistics & Data Science  GPA: 3.40/4.0\nData Analytics & ML Coursework:\n\nStatistical Machine Learning\nData Scientific Programming\nQuantitative Decision Making\nAdvanced Data Computing\n\nEconomics & Finance Coursework:\n\nAdvanced Econometrics and Modelling\nFoundations of Financial Management\nMicro/Macroeconomics\nFundamentals of Accounting\n\nExtracurricular:\n\nMen’s NCAA Fencing Team (2022-2026)\nLawrence University Investment Club (2026)"
   },
   {
     "objectID": "Experience.html",
@@ -25,7 +25,7 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This page contains completed projects from my courses at Lawrence University.\nThis needs to be re-ordered in a logical manner, maybe by subject?\nNeed to add CSV files for some of the projects for reproducibility / visibility / transparency\n\n\n\n\n\n\nNoteCMSC405: Advanced Data Computing\n\n\n\n\n\nNOTE: These are private GitHub repos for the course. As such, only members of the course will have access to the GitHub link.\n\nR-Package Presentation\nThis is a presentation made with Quarto in RStudio. In it, I explore the basics of KPolen, an R package made by Karl Polen for private equity mathemetical computation and portfolio analysis.\nView on RPubs\n\n\n\nArticle Summary Poster\nThis is a poster created using the package posterdown. It contains a brief summary of the article: The Split-Apply-Combine Strategy for Data Analysis by Hadley Wickham. This was a collaborative project, worked on with Tahana Akram, a fellow student in CMSC405.\nView on GitHub View on RPubs\n\n\n\nR-Package “pegap”\npegap is a package developed by myself in an effort to cover the gaps in private equity portfolio analysis in R. The name stems from this: “pe” = private equity, “gap” = gap in the field. Currently, the package contains the following functions:\n\nvintage_diversification_score() — scores how concentrated a PE portfolio is across vintage years using HHI\nunfunded_liability_schedule() — forecasts future capital calls across a 5-year schedule with a preset drawdown curve\nportfolio_plot() — visualises portfolio progress by vintage year as a scatterplot\n\nI intend to update this package post-graduation to include many more functions.\nView on GitHub View Package\n\n\n\nProject 3 - Text Analysis\nThis was a collaborative project with Nga Nguyen (Daisy), a fellow student. We aimed to use data visualisation and sentiment analysis to investigate trends within the Harry Potter Series, specifically within the text itself.\nView on GitHub\n\n\n\nProject 2 - SQL\nWorking with Binh Vu, a classmate, this project was an introduction to SQL functions. We used SQL Queries, DuckDB, and Visualisation in RStudio to analyze the TidyTuesday survey data on how individuals interpret probabilistic language.\nView on GitHub\n\n\n\n\n\n\n\n\n\n\n\nNoteECON602: Senior Research Experience\n\n\n\n\n\nCapstone — Effect of Legalising Recreational Marijuana on State Employment\nResearch Question: Does legalising recreational marijuana have an impact on state-level employment?\nMethodology: Difference-in-Differences model using state and year fixed effects\nHow: Utilised event study graphs, regression tables, and propensity score matching in RStudio\nData: Tidied, wrangled, and processed over 300,000 observations across 25 variables.\nFinal Dataset included economic, demographic, geographic controls for all 50 states between the years 2000-2022. These included variables such as GDP, Population, Race, and Region.\nView Capstone PDF\n\n\n\n\n\n\n\n\n\n\nNoteGLST100: Intro to Global Studies\n\n\n\n\n\nResearch Presentation\nView as PDF\n\n\n\n\n\n\n\n\n\nNoteECON226: Sports Economics & Analytics\n\n\n\n\n\nPersonal Sports Performance Analysis\nView PDF\n\n\n\n\n\n\n\n\n\nNoteGOVT496: Fascism, Nazism, Neofascism\n\n\n\n\n\nFinal Research Paper\nView PDF"
+    "text": "This page contains completed projects from my courses at Lawrence University.\n\n\n\n\n\n\nNoteCMSC405: Advanced Data Computing\n\n\n\n\n\nNOTE: These are private GitHub repos for the course. As such, only members of the course will have access to the GitHub link.\n\nR-Package Presentation\nThis is a presentation made with Quarto in RStudio. In it, I explore the basics of KPolen, an R package made by Karl Polen for private equity mathemetical computation and portfolio analysis.\nView on RPubs\n\n\n\nArticle Summary Poster\nThis is a poster created using the package posterdown. It contains a brief summary of the article: The Split-Apply-Combine Strategy for Data Analysis by Hadley Wickham. This was a collaborative project, worked on with Tahana Akram, a fellow student in CMSC405.\nView on GitHub View on RPubs\n\n\n\nR-Package “pegap”\npegap is a package developed by myself in an effort to cover the gaps in private equity portfolio analysis in R. The name stems from this: “pe” = private equity, “gap” = gap in the field. Currently, the package contains the following functions:\n\nvintage_diversification_score() — scores how concentrated a PE portfolio is across vintage years using HHI\nunfunded_liability_schedule() — forecasts future capital calls across a 5-year schedule with a preset drawdown curve\nportfolio_plot() — visualises portfolio progress by vintage year as a scatterplot\n\nI intend to update this package post-graduation to include many more functions.\nView on GitHub View Package\n\n\n\nProject 3 - Text Analysis\nThis was a collaborative project with Nga Nguyen (Daisy), a fellow student. We aimed to use data visualisation and sentiment analysis to investigate trends within the Harry Potter Series, specifically within the text itself.\nView on GitHub\n\n\n\nProject 2 - SQL\nWorking with Binh Vu, a classmate, this project was an introduction to SQL functions. We used SQL Queries, DuckDB, and Visualisation in RStudio to analyze the TidyTuesday survey data on how individuals interpret probabilistic language.\nView on GitHub\n\n\n\n\n\n\n\n\n\n\n\nNoteECON602: Senior Research Experience\n\n\n\n\n\nCapstone — Effect of Legalising Recreational Marijuana on State Employment\nResearch Question: Does legalising recreational marijuana have an impact on state-level employment?\nMethodology: Difference-in-Differences model using state and year fixed effects\nHow: Utilised event study graphs, regression tables, and propensity score matching in RStudio\nData: Tidied, wrangled, and processed over 300,000 observations across 25 variables.\nFinal Dataset included economic, demographic, geographic controls for all 50 states between the years 2000-2022. These included variables such as GDP, Population, Race, and Region.\nView Capstone PDF\n\n\n\n\n\n\n\n\n\n\nNoteGLST100: Intro to Global Studies\n\n\n\n\n\nResearch Presentation\nView as PDF\n\n\n\n\n\n\n\n\n\nNoteECON226: Sports Economics & Analytics\n\n\n\n\n\nPersonal Sports Performance Analysis\nView PDF\n\n\n\n\n\n\n\n\n\nNoteGOVT496: Fascism, Nazism, Neofascism\n\n\n\n\n\nFinal Research Paper\nView PDF"
   },
   {
     "objectID": "inProgress.html",
@@ -53,14 +53,14 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My name is Oliver Reece and I am an Economics and Data Science student at Lawrence University. Upon graduation, I look to enter into finance, specifically as an Investment Analyst or Private Equity Analyst where I can apply and develop further the tools my courses have given while also making a real-world impact."
+    "text": "My name is Oliver Reece. I hold a B.A. in Quantitative Economics, Minor in Statistics & Data Science from Lawrence University. At Lawrence (outside of my studies) I competed on the NCAA Men’s Fencing Team, held part-time jobs in the office of SEAL and in the on-campus bar. I have a passion for investing and quantitative research, and as such hope to be able to merge these together into a career as an investment banking analyst or private equity analyst. In these roles I would aspire to make meaningful investments that would lead to the betterment of the world I live in all while developing as an individual, an academic, and a professional."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
     "title": "About Me",
     "section": "",
-    "text": "My name is Oliver Reece and I am an Economics and Data Science student at Lawrence University. Upon graduation, I look to enter into finance, specifically as an Investment Analyst or Private Equity Analyst where I can apply and develop further the tools my courses have given while also making a real-world impact."
+    "text": "My name is Oliver Reece. I hold a B.A. in Quantitative Economics, Minor in Statistics & Data Science from Lawrence University. At Lawrence (outside of my studies) I competed on the NCAA Men’s Fencing Team, held part-time jobs in the office of SEAL and in the on-campus bar. I have a passion for investing and quantitative research, and as such hope to be able to merge these together into a career as an investment banking analyst or private equity analyst. In these roles I would aspire to make meaningful investments that would lead to the betterment of the world I live in all while developing as an individual, an academic, and a professional."
   },
   {
     "objectID": "about.html#academic-interests",
@@ -74,7 +74,7 @@
     "href": "about.html#extracurricular-interests",
     "title": "About Me",
     "section": "Extracurricular Interests",
-    "text": "Extracurricular Interests\nADD PHOTOS FOR EACH!!\n\nSnowboarding\nMountain Biking\nFootball (Soccer)\nFencing\nHiking\nCamping"
+    "text": "Extracurricular Interests\n\nSnowboarding\nMountain Biking\nFootball (Soccer)\nFencing\nHiking\nCamping"
   },
   {
     "objectID": "about.html#contact-information",
@@ -82,5 +82,19 @@
     "title": "About Me",
     "section": "Contact Information",
     "text": "Contact Information\nIf you need to reach me, feel free to reach me at my email: email or via LinkedIn: LinkedIn."
+  },
+  {
+    "objectID": "Certifications.html#campus-leadership-athletics",
+    "href": "Certifications.html#campus-leadership-athletics",
+    "title": "Oliver Reece",
+    "section": "Campus Leadership & Athletics",
+    "text": "Campus Leadership & Athletics\n\nNCAA Men’s Varsity Fencing\nVarsity Athlete (2022 – Present) * Balanced a rigorous quantitative courseload with the 20+ hour weekly time commitment required of a collegiate varsity athlete.\n\n\nLawrence University Investment Club\nAnalyst * Collaborate with peers to evaluate market opportunities and pitch equity research ideas to the student-managed fund."
+  },
+  {
+    "objectID": "Certifications.html#undergraduate-studies",
+    "href": "Certifications.html#undergraduate-studies",
+    "title": "Oliver Reece",
+    "section": "",
+    "text": "Lawrence University | Appleton, WI | Sept 2022 - June 2026  B.A. in Quantitative Economics, Minor in Statistics & Data Science  GPA: 3.40/4.0\nData Analytics & ML Coursework:\n\nStatistical Machine Learning\nData Scientific Programming\nQuantitative Decision Making\nAdvanced Data Computing\n\nEconomics & Finance Coursework:\n\nAdvanced Econometrics and Modelling\nFoundations of Financial Management\nMicro/Macroeconomics\nFundamentals of Accounting\n\nExtracurricular:\n\nMen’s NCAA Fencing Team (2022-2026)\nLawrence University Investment Club (2026)"
   }
 ]

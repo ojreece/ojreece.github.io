@@ -16,8 +16,8 @@ website:
         text: CV
     # - href: inProgress.qmd
        #text: Upcoming
-    # - href: Certifications.qmd
-      #text: Cetifications
+      - href: Certifications.qmd
+        text: Education
     # - href: Personal_Projects.qmd
       #text: Personal Projects
     # - href: Experience.qmd 
