@@ -2,7 +2,7 @@
 title: "Oliver Reece"
 about:
   template: trestles
-  image: files/photo.jpeg 
+  image: files/WebsitePhoto.jpeg
   links:
     - icon: github
       text: GitHub
@@ -20,13 +20,12 @@ about:
 
 ## Welcome!
 
-I am a fourth-year student athlete at Lawrence University. 
-I expect to graduate on June 14th, 2026 with a B.A. Quantitative Economics and a minor in Data Science. 
-I have competed on the NCAA DIII Men's Fencing Team for all four years. 
+I’m a recent Quantitative Economics graduate from Lawrence University and a former 4-year NCAA Varsity Fencer. 
+I built this portfolio to showcase the intersection of my two biggest drivers: analytical rigor and disciplined execution. 
+This site serves as a deep dive into my technical skill-set - featuring predictive machine learning models, financial valuations, and my professional experience.
 
-This website serves as a look into my professional life, with topics ranging from academic projects to work experience. 
+If you are curious what's going on behind the curtain, feel free to check out my website's github repo! <br>
 
-If you are curious what's going on behind the curtain, feel free to check out my website's github repo!
 [Website GitHub](https://github.com/ojreece/ojreece.github.io){.btn .btn-outline-primary}
 
 

@@ -4,7 +4,7 @@ Title: Education
 
 ## Undergraduate Studies
 
-[**Lawrence University**]{style="font-size: 20px;"} | Appleton, WI | Sept 2022 - June 2026 <br>
+[**Lawrence University**]{style="font-size: 1.2em;"} | Appleton, WI | Sept 2022 - June 2026 <br>
 *B.A. in Quantitative Economics*, *Minor in Statistics & Data Science* <br> 
 **GPA:** 3.40/4.0
 
