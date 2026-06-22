@@ -20,9 +20,10 @@ about:
 
 ## Welcome!
 
-I’m a recent Quantitative Economics graduate from Lawrence University and a former 4-year NCAA Varsity Fencer. 
+I’m a recent graduate from Lawrence University and a former 4-year NCAA Varsity Fencer. 
 I built this portfolio to showcase the intersection of my two biggest drivers: analytical rigor and disciplined execution. 
-This site serves as a deep dive into my technical skill-set - featuring predictive machine learning models, financial valuations, and my professional experience.
+This site serves as a deep dive into my technical skill-set - 
+featuring predictive machine learning models, financial valuations, and my professional experience.
 
 If you are curious what's going on behind the curtain, feel free to check out my website's github repo! <br>
 

@@ -7,9 +7,9 @@ title: "About Me"
 My name is Oliver Reece. I hold a B.A. in Quantitative Economics, Minor in Statistics & Data Science from Lawrence University. 
 At Lawrence (outside of my studies) I competed on the NCAA Men's Fencing Team, and held part-time jobs in both the on-campus bar, 
 and in the office of SEAL (Student Engagement, Activities, and Leadership). 
-I have a passion for investing and quantitative research, and as such intend to merge these together into a career as an 
-investment banking analyst or private equity analyst. In these roles I would aspire to make meaningful investments that 
-would lead to the betterment of the world I live in all while developing as an individual, an academic, and a professional.
+I have a passion for investing and quantitative research, and as such intend to merge these together into a career where 
+I make meaningful investments that would lead to the betterment of the world I live in all, while developing as an 
+individual, an academic, and a professional.
 
 ## Academic Interests
 
@@ -30,5 +30,5 @@ would lead to the betterment of the world I live in all while developing as an i
 
 ## Contact Information
 
-If you need to reach me, feel free to reach me at my email: [email](mailto:oliver.j.reece66@gmail.com)
-or via LinkedIn: [LinkedIn](https://linkedin.com/in/oliver-reece).
+If you need to reach me, feel free to reach me at my [email](mailto:oliver.j.reece66@gmail.com)
+or via [LinkedIn](https://linkedin.com/in/oliver-reece).

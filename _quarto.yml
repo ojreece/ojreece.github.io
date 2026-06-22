@@ -12,11 +12,11 @@ website:
         text: About
       - href: Projects.qmd
         text: Projects
-      - href: CV.qmd
-        text: CV
+      - href: Resume.qmd
+        text: Resume
     # - href: inProgress.qmd
        #text: Upcoming
-      - href: Certifications.qmd
+      - href: Education.qmd
         text: Education
     # - href: Personal_Projects.qmd
       #text: Personal Projects

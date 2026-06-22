@@ -1,9 +1,0 @@
----
-title: "Resume"
----
-
-<iframe src="files/Oliver.J.Reece_Resume.pdf" width="140%" height="800px"></iframe> 
-
-<!-- 
-the above layout was sourced from Gemini 3.1 Pro. It lets me show CV as a pdf on the website
--->
