@@ -1,18 +1,30 @@
 ---
-Title: Personal Projects
+title: "Personal Projects"
 ---
 
-Below are projects that were completed outside of my formal studies.
+This page is dedicated to projects I have undertaken outside of my formal studies.
 
-- LBO 
-- sentiment analysis + ML stock predictive model
 
-1. Adapt Your ML Sentiment Model into a "Tradable Signal" (Existing Project)Since you already built this, your first step is to translate it from a standalone script into a usable quantitative input.The Goal: Quants do not just predict prices; they create systematic rules based on those predictions. You need to turn your ML model's output into a daily "Alpha Score" (e.g., -1.0 to 1.0) for a universe of stocks.Action Items:Ensure your model scrapes data and outputs a daily CSV or database row containing the Date, Ticker, and Sentiment Score.Define a clear trading threshold (e.g., "If 7-day rolling sentiment drops below -0.5, trigger a short signal").Clean up the code, document your hyperparameters, and push it to a dedicated GitHub repository.
+::: {.callout-note collapse="true"}
+## Ocean Power Technologies: A Thorough Analysis
 
-2. Build the Systematic Backtesting EngineNow that you have an ML signal, you need an environment to test it. This is the core of any factor investor's portfolio.The Goal: Build a Python program that simulates how your ML signal (and other classic factors) would have performed in the real world over the last 10–15 years.Action Items:Use Python libraries like pandas, NumPy, and a framework like Backtrader or VectorBT.First, backtest a classic, well-documented anomaly (like Cross-Sectional Momentum or Value) to ensure your engine works correctly and matches academic literature.Next, plug your ML Sentiment Signal (from Project 1) into the backtester.Program the engine to output a tear sheet showing key metrics: Sharpe Ratio, Maximum Drawdown, Annualized Volatility, and Turnover. Crucially, factor in simulated transaction costs (slippage and commissions).
+In this project, I analyse the stock ticker OPTT (Ocean Power Technologies). It is a stock that has 
+long suffered after immediate and rapid success, now residing as a penny stock trading for less than $0.50.
 
-3. Code a Factor Risk Attribution ToolA high Sharpe ratio means nothing if the returns are just disguised market risk. You must prove your strategy generates actual "alpha."The Goal: Build an Ordinary Least Squares (OLS) regression tool that decomposes the returns of your backtest (or a real-world mutual fund) into known risk premia.Action Items:Pull the free historical Fama-French 3-Factor or 5-Factor data from the Kenneth French Data Library.Use the statsmodels library in Python to run a regression of your strategy's excess returns against the Market, Size, and Value factors.Generate a visualization showing how much of your strategy's return comes from true manager skill ($\alpha$) versus simply taking on uncompensated risk ($\beta$).
+Recently, they signed a $6.5 million deal with the US government, giving the company a chance to pivot their
+business model into something (potentially) profitable. 
 
-4. Develop an Automated Alternative Data PipelineFactor researchers spend 80% of their time finding, cleaning, and storing data. Showing you have "data engineering" skills will make you stand out from applicants who only know how to use pre-cleaned CSVs.The Goal: Build an automated pipeline that fetches raw, messy data from the web, cleans it, and stores it in a SQL database for future quantitative research.Action Items:Choose a non-traditional dataset. Examples: scraping the SEC EDGAR database for insider buying frequency, tracking daily Wikipedia page views for specific companies, or pulling regional weather data to correlate with agricultural stocks.Write a Python script using BeautifulSoup or an API to fetch this data daily.Use sqlite3 or PostgreSQL to build a relational database where this data is stored and automatically updated.
+In this analysis, I use an OLS Regression to analyse the stock's historical performance and a logistic regression 
+dive into their historical risk. Moreover, I use Random Forest, XGBoost, and LSTM Network algorithms to predict 
+future performance. My main goal is to better understand how to analyse stocks using statistical modelling, while 
+also looking into the limitations of single-algorithm machine learning techniques when predicting stock performance. 
 
-5. Repackage Your Simulated LBO as "Quantamental" Edge (Existing Project)Pure quants sometimes struggle with the actual mechanics of corporate finance. Your LBO model is a massive asset if framed correctly as "quantamental" (quantitative + fundamental) knowledge.The Goal: Use your existing LBO model to prove that you understand the underlying assets your algorithms are trading. Factor strategies like "Quality" or "Value" rely heavily on corporate debt structures and cash flows.Action Items:Clean up your Excel LBO model so the formatting is flawless (hardcodes in blue, formulas in black).Write a brief, 1-page summary explaining how understanding debt schedules, cost of capital, and cash flow sweeps in an LBO helps you better understand the "Value" factor in systematic equity markets.Keep this as the final anchor in your portfolio. If you interview at a multi-manager hedge fund or a firm that blends discretionary and systematic strategies (like Citadel or AQR), this will be a massive differentiator.
+My thesis is that XGBoost will perform best at predicting daily or weekly future metrics due to it's ability to handle 
+non-linear data well. That being said, I believe the LSTM network will perform best when predicting longer term overall
+trends due to it's strengths in pattern recognition over time. 
+
+This project is currently still underway, but feel free to check out my progress on my github repo!
+Once finished, I will also upload a rendered PDF output of my full report with visualisations and analysis. 
+
+
+:::

@@ -1,121 +1,126 @@
 /* css styles */
 
-/*NOTE: CSS Styling was done with help from Claude Sonnet 4.6 */
-
 /* ── Core palette ── */
+/* Blending PE Institutional Navy with Quant Algorithmic Emerald */
 :root {
-  --charcoal:     #2b2b2b;
-  --charcoal-mid: #3d3d3d;
-  --emerald:      #1a6b4a;
-  --emerald-light:#22875e;
-  --off-white:    #f2f2f2;
+  --bg-primary:      #fdfdfd;  /* Clean institutional background */
+  --bg-secondary:    #f4f6f8;  /* Subtle grey-blue for callouts/cards */
+  --navy-dark:       #0f172a;  /* Deep slate/navy for ultimate readability & authority */
+  --navy-mid:        #334155;  /* Muted navy for body text and secondary elements */
+  --emerald-quant:   #0d9488;  /* Sharp teal/emerald accent for tech/data vibes */
+  --emerald-hover:   #0f766e;  /* Darker teal for interaction feedback */
+  --border-color:    e2e8f0;  
 }
 
 /* ── Page background & text ── */
 body {
-  background-color: var(--charcoal);
-  color: var(--off-white);
+  background-color: var(--bg-primary);
+  color: var(--navy-mid);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* ── Navbar ── */
 .navbar {
-  background-color: var(--charcoal-mid) !important;
-  border-bottom: 2px solid var(--emerald);
+  background-color: var(--navy-dark) !important;
+  border-bottom: 3px solid var(--emerald-quant);
 }
 
 .navbar-brand, .nav-link {
-  color: var(--off-white) !important;
+  color: #ffffff !important;
+  font-weight: 500;
 }
 
 .nav-link:hover, .nav-link.active {
-  color: var(--emerald-light) !important;
+  color: var(--emerald-quant) !important;
 }
 
 /* ── Headings ── */
 h1, h2, h3, h4 {
-  color: var(--emerald-light);
+  color: var(--navy-dark);
+  font-weight: 600;
+  letter-spacing: -0.02em;
 }
 
 /* ── Links ── */
 a {
-  color: var(--emerald-light);
+  color: var(--emerald-quant);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: #fff;
+  color: var(--emerald-hover);
+  text-decoration: underline;
 }
 
 /* ── Buttons ── */
+/* Primary Button: Clean, professional outline that fills on hover */
 .btn-outline-primary {
-  color: var(--emerald-light);
-  border-color: var(--emerald-light);
+  color: var(--emerald-quant);
+  border-color: var(--emerald-quant);
+  font-weight: 500;
 }
 
 .btn-outline-primary:hover {
-  background-color: var(--emerald);
-  border-color: var(--emerald);
-  color: #fff;
+  background-color: var(--emerald-quant);
+  border-color: var(--emerald-quant);
+  color: #ffffff;
 }
 
 .btn-outline-secondary {
-  color: var(--off-white);
-  border-color: var(--off-white);
+  color: var(--navy-mid);
+  border-color: var(--navy-mid);
 }
 
 .btn-outline-secondary:hover {
-  background-color: var(--charcoal-mid);
-  color: #fff;
+  background-color: var(--navy-mid);
+  color: #ffffff;
 }
 
 /* ── Callout boxes ── */
+/* Clean light panel with a sharp mathematical left border */
 .callout {
-  background-color: var(--charcoal-mid);
-  border-left-color: var(--emerald) !important;
+  background-color: var(--bg-secondary) !important;
+  border-left-color: var(--emerald-quant) !important;
+  border-top: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-radius: 0 4px 4px 0;
 }
 
-/* ── Code blocks ── */
+.callout-header, .callout-body {
+  background-color: transparent !important;
+  color: var(--navy-dark) !important;
+}
+
+.callout-title {
+  color: var(--navy-dark) !important;
+  font-weight: 600;
+}
+
+/* ── Code blocks (Kept dark for developer readability) ── */
 pre, code {
-  background-color: #1e1e1e;
-  color: #d4d4d4;
+  background-color: #0f172a;
+  color: #38bdf8; /* Sharp neon blue for quant code syntax */
 }
 
 /* ── Table of contents ── */
 #TOC a {
-  color: var(--off-white);
+  color: var(--navy-mid);
 }
 
 #TOC a:hover, #TOC a.active {
-  color: var(--emerald-light);
+  color: var(--emerald-quant);
+  font-weight: 500;
 }
 
-/* ── Callout boxes ── */
-.callout {
-  background-color: var(--charcoal-mid) !important;
-  border-left-color: var(--emerald) !important;
-  color: var(--off-white) !important;
-}
-
-.callout-header {
-  background-color: var(--charcoal-mid) !important;
-  color: var(--off-white) !important;
-}
-
-.callout-body {
-  background-color: var(--charcoal-mid) !important;
-  color: var(--off-white) !important;
-}
-
-.callout-title {
-  color: var(--off-white) !important;
-}
 /* ── Social/icon buttons ── */
 .about-link {
-  color: var(--off-white) !important;
-  border-color: var(--emerald) !important;
+  color: var(--navy-dark) !important;
+  border-color: var(--navy-dark) !important;
 }
 
 .about-link:hover {
-  background-color: var(--emerald) !important;
-  color: #fff !important;
+  background-color: var(--navy-dark) !important;
+  color: #ffffff !important;
 }
-

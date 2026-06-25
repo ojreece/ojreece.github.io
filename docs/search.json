@@ -2,9 +2,9 @@
   {
     "objectID": "Personal_Projects.html",
     "href": "Personal_Projects.html",
-    "title": "Oliver Reece",
+    "title": "Personal Projects",
     "section": "",
-    "text": "Below are projects that were completed outside of my formal studies.\n\nLBO\nFinancial Modeling\nCompany Evaluation\nCompany Evaluation #2\nQuizlet Finance Terminology\nEquity Research & Stock Pitching\nMORE"
+    "text": "This page is dedicated to projects I have undertaken outside of my formal studies.\n\n\n\n\n\n\nNoteOcean Power Technologies: A Thorough Analysis\n\n\n\n\n\nIn this project, I analyse the stock ticker OPTT (Ocean Power Technologies). It is a stock that has long suffered after immediate and rapid success, now residing as a penny stock trading for less than $0.50.\nRecently, they signed a $6.5 million deal with the US government, giving the company a chance to pivot their business model into something (potentially) profitable.\nIn this analysis, I use an OLS Regression to analyse the stock’s historical performance and a logistic regression dive into their historical risk. Moreover, I use Random Forest, XGBoost, and LSTM Network algorithms to predict future performance. My main goal is to better understand how to analyse stocks using statistical modelling, while also looking into the limitations of single-algorithm machine learning techniques when predicting stock performance.\nMy thesis is that XGBoost will perform best at predicting daily or weekly future metrics due to it’s ability to handle non-linear data well. That being said, I believe the LSTM network will perform best when predicting longer term overall trends due to it’s strengths in pattern recognition over time.\nThis project is currently still underway, but feel free to check out my progress on my github repo! Once finished, I will also upload a rendered PDF output of my full report with visualisations and analysis."
   },
   {
     "objectID": "Certifications.html",
@@ -39,35 +39,35 @@
     "href": "inProgress.html",
     "title": "Oliver Reece",
     "section": "",
-    "text": "This page is a temporary note to myself while this website remains under construction.\nSoon to be added:\n\nPersonal Projects Tab with github links and attached READMEs / RPubs links\nMore Lawrence Projects\nPictures of me doing personal interests (linked to the text)\nCertifications Tab (think Data Camp courses, Coursera, Online 1-off classes, etc)\nEducation Tab (Masters, Bachelors, High School)\nRecent Ventures Tab (like a personal blog, but for professional things. for ex, graduation experience / reflection)\nTravel Log"
+    "text": "This page is a temporary note to myself while this website remains under construction.\nSoon to be added:\n\nPersonal Projects Tab with github links and attached READMEs / RPubs links\nLinks to CSVs, README pages for lawrence projects\nPictures of me doing personal interests (linked to the text)\nCertifications Tab (think Data Camp courses, Coursera, Online 1-off classes, etc)\nEducation Tab (Masters, Bachelors, High School)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Oliver Reece",
     "section": "",
-    "text": "I’m a recent Quantitative Economics graduate from Lawrence University and a former 4-year NCAA Varsity Fencer. I built this portfolio to showcase the intersection of my two biggest drivers: analytical rigor and disciplined execution. This site serves as a deep dive into my technical skill-set - featuring predictive machine learning models, financial valuations, and my professional experience.\nIf you are curious what’s going on behind the curtain, feel free to check out my website’s github repo! \nWebsite GitHub"
+    "text": "I’m a recent graduate from Lawrence University and a former 4-year NCAA Varsity Fencer. I built this portfolio to showcase the intersection of my two biggest drivers: analytical rigor and disciplined execution. This site serves as a deep dive into my technical skill-set - featuring predictive machine learning models, financial valuations, and my professional experience.\nIf you are curious what’s going on behind the curtain, feel free to check out my website’s github repo! \nWebsite GitHub"
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "Oliver Reece",
     "section": "",
-    "text": "I’m a recent Quantitative Economics graduate from Lawrence University and a former 4-year NCAA Varsity Fencer. I built this portfolio to showcase the intersection of my two biggest drivers: analytical rigor and disciplined execution. This site serves as a deep dive into my technical skill-set - featuring predictive machine learning models, financial valuations, and my professional experience.\nIf you are curious what’s going on behind the curtain, feel free to check out my website’s github repo! \nWebsite GitHub"
+    "text": "I’m a recent graduate from Lawrence University and a former 4-year NCAA Varsity Fencer. I built this portfolio to showcase the intersection of my two biggest drivers: analytical rigor and disciplined execution. This site serves as a deep dive into my technical skill-set - featuring predictive machine learning models, financial valuations, and my professional experience.\nIf you are curious what’s going on behind the curtain, feel free to check out my website’s github repo! \nWebsite GitHub"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "My name is Oliver Reece. I hold a B.A. in Quantitative Economics, Minor in Statistics & Data Science from Lawrence University. At Lawrence (outside of my studies) I competed on the NCAA Men’s Fencing Team, and held part-time jobs in both the on-campus bar, and in the office of SEAL (Student Engagement, Activities, and Leadership). I have a passion for investing and quantitative research, and as such intend to merge these together into a career as an investment banking analyst or private equity analyst. In these roles I would aspire to make meaningful investments that would lead to the betterment of the world I live in all while developing as an individual, an academic, and a professional."
+    "text": "My name is Oliver Reece. I hold a B.A. in Quantitative Economics, Minor in Statistics & Data Science from Lawrence University. At Lawrence (outside of my studies) I competed on the NCAA Men’s Fencing Team, and held part-time jobs in both the on-campus bar, and in the office of SEAL (Student Engagement, Activities, and Leadership). I have a passion for investing and quantitative research, and as such intend to merge these together into a career where I make meaningful investments that would lead to the betterment of the world I live in, all while developing as an individual, an academic, and a professional."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
     "title": "About Me",
     "section": "",
-    "text": "My name is Oliver Reece. I hold a B.A. in Quantitative Economics, Minor in Statistics & Data Science from Lawrence University. At Lawrence (outside of my studies) I competed on the NCAA Men’s Fencing Team, and held part-time jobs in both the on-campus bar, and in the office of SEAL (Student Engagement, Activities, and Leadership). I have a passion for investing and quantitative research, and as such intend to merge these together into a career as an investment banking analyst or private equity analyst. In these roles I would aspire to make meaningful investments that would lead to the betterment of the world I live in all while developing as an individual, an academic, and a professional."
+    "text": "My name is Oliver Reece. I hold a B.A. in Quantitative Economics, Minor in Statistics & Data Science from Lawrence University. At Lawrence (outside of my studies) I competed on the NCAA Men’s Fencing Team, and held part-time jobs in both the on-campus bar, and in the office of SEAL (Student Engagement, Activities, and Leadership). I have a passion for investing and quantitative research, and as such intend to merge these together into a career where I make meaningful investments that would lead to the betterment of the world I live in, all while developing as an individual, an academic, and a professional."
   },
   {
     "objectID": "about.html#academic-interests",
@@ -88,6 +88,20 @@
     "href": "about.html#contact-information",
     "title": "About Me",
     "section": "Contact Information",
-    "text": "Contact Information\nIf you need to reach me, feel free to reach me at my email: email or via LinkedIn: LinkedIn."
+    "text": "Contact Information\nIf you need to reach me, feel free to reach me at my email or via LinkedIn."
+  },
+  {
+    "objectID": "Education.html",
+    "href": "Education.html",
+    "title": "Oliver Reece",
+    "section": "",
+    "text": "Lawrence University | Appleton, WI | Sept 2022 - June 2026  B.A. in Economics, Minor in Statistics & Data Science  GPA: 3.4/4.0\nData Analytics & ML Coursework:\n\nStatistical Machine Learning\nData Scientific Programming\nQuantitative Decision Making\nAdvanced Data Computing\n\nEconomics & Finance Coursework:\n\nAdvanced Econometrics and Modelling\nFoundations of Financial Management\nMicro/Macroeconomics\nFundamentals of Accounting\n\nExtracurricular:\n\nMen’s NCAA Fencing Team (2022-2026)\nLawrence University Investment Club (2026)"
+  },
+  {
+    "objectID": "Education.html#undergraduate-studies",
+    "href": "Education.html#undergraduate-studies",
+    "title": "Oliver Reece",
+    "section": "",
+    "text": "Lawrence University | Appleton, WI | Sept 2022 - June 2026  B.A. in Economics, Minor in Statistics & Data Science  GPA: 3.4/4.0\nData Analytics & ML Coursework:\n\nStatistical Machine Learning\nData Scientific Programming\nQuantitative Decision Making\nAdvanced Data Computing\n\nEconomics & Finance Coursework:\n\nAdvanced Econometrics and Modelling\nFoundations of Financial Management\nMicro/Macroeconomics\nFundamentals of Accounting\n\nExtracurricular:\n\nMen’s NCAA Fencing Team (2022-2026)\nLawrence University Investment Club (2026)"
   }
 ]

@@ -18,8 +18,8 @@ website:
        #text: Upcoming
       - href: Education.qmd
         text: Education
-    # - href: Personal_Projects.qmd
-      #text: Personal Projects
+      - href: Personal_Projects.qmd
+        text: Personal Projects
     # - href: Experience.qmd 
       #text: Experience
 format:

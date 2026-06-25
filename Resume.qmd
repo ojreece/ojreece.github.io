@@ -2,7 +2,7 @@
 title: "Resume"
 ---
 
-<iframe src="files/OliverJReece_Resume.pdf" width="140%" height="800px"></iframe> 
+<iframe src="files/Oliver_Reece_Resume.pdf" width="140%" height="800px"></iframe> 
 
 <!-- 
 the above layout was sourced from Gemini 3.1 Pro. It lets me show my Resume as a pdf on the website
