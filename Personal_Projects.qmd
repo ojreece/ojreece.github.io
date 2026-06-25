@@ -26,5 +26,8 @@ trends due to it's strengths in pattern recognition over time.
 This project is currently still underway, but feel free to check out my progress on my github repo!
 Once finished, I will also upload a rendered PDF output of my full report with visualisations and analysis. 
 
+**Want to dive into my work? My progress is live on GitHub:**
+
+[View Progress](https://github.com/ojreece/Machine-Learning-Predictive-Modelling){.btn .btn-outline-primary}
 
 :::

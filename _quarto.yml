@@ -10,18 +10,16 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: Projects.qmd
-        text: Projects
+      - text: Projects
+        menu:
+          - href: Projects.qmd
+            text: Academic Projects
+          - href: Personal_Projects.qmd
+            text: Personal Projects
       - href: Resume.qmd
         text: Resume
-    # - href: inProgress.qmd
-       #text: Upcoming
       - href: Education.qmd
         text: Education
-      - href: Personal_Projects.qmd
-        text: Personal Projects
-    # - href: Experience.qmd 
-      #text: Experience
 format:
   html:
     theme:

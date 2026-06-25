@@ -100,10 +100,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Projects.html"> 
-<span class="menu-text">Projects</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./Projects.html">
+ <span class="dropdown-text">Academic Projects</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./Personal_Projects.html">
+ <span class="dropdown-text">Personal Projects</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./Resume.html"> 
 <span class="menu-text">Resume</span></a>
@@ -111,10 +122,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./Education.html"> 
 <span class="menu-text">Education</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./Personal_Projects.html" aria-current="page"> 
-<span class="menu-text">Personal Projects</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -170,6 +177,8 @@ ul.task-list li input[type="checkbox"] {
 <p>In this analysis, I use an OLS Regression to analyse the stock’s historical performance and a logistic regression dive into their historical risk. Moreover, I use Random Forest, XGBoost, and LSTM Network algorithms to predict future performance. My main goal is to better understand how to analyse stocks using statistical modelling, while also looking into the limitations of single-algorithm machine learning techniques when predicting stock performance.</p>
 <p>My thesis is that XGBoost will perform best at predicting daily or weekly future metrics due to it’s ability to handle non-linear data well. That being said, I believe the LSTM network will perform best when predicting longer term overall trends due to it’s strengths in pattern recognition over time.</p>
 <p>This project is currently still underway, but feel free to check out my progress on my github repo! Once finished, I will also upload a rendered PDF output of my full report with visualisations and analysis.</p>
+<p><strong>Want to dive into my work? My progress is live on GitHub:</strong></p>
+<p><a href="https://github.com/ojreece/Machine-Learning-Predictive-Modelling" class="btn btn-outline-primary">View Progress</a></p>
 </div>
 </div>
 </div>

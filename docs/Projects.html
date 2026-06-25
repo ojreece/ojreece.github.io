@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Oliver Reece</title>
+<title>Academic Projects – Oliver Reece</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -100,10 +100,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./Projects.html" aria-current="page"> 
-<span class="menu-text">Projects</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./Projects.html">
+ <span class="dropdown-text">Academic Projects</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./Personal_Projects.html">
+ <span class="dropdown-text">Personal Projects</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./Resume.html"> 
 <span class="menu-text">Resume</span></a>
@@ -111,10 +122,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./Education.html"> 
 <span class="menu-text">Education</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Personal_Projects.html"> 
-<span class="menu-text">Personal Projects</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -135,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Academic Projects</h1>
 </div>
 
 
@@ -165,40 +172,49 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>NOTE: These are private GitHub repos for the course. As such, only members of the course will have access to the GitHub link.</p>
-<section id="r-package-presentation" class="level3">
-<h3 class="anchored" data-anchor-id="r-package-presentation">R-Package Presentation</h3>
-<p>This is a presentation made with Quarto in RStudio. In it, I explore the basics of KPolen, an R package made by Karl Polen for private equity mathemetical computation and portfolio analysis.</p>
+<p><strong>Note</strong>: Some of the projects below link to private GitHub repositories used for coursework, which are only accessible to members of the course. If a link doesn’t load for you, that’s why - I’m happy to share the source code directly upon request, so feel free to reach out.</p>
+<section id="kpolen-private-equity-portfolio-analysis-in-r" class="level3">
+<h3 class="anchored" data-anchor-id="kpolen-private-equity-portfolio-analysis-in-r">KPolen: Private Equity Portfolio Analysis in R</h3>
+<p>A Quarto/RevealJS presentation exploring kpolen, an R package by Karl Polen (former CIO of the Arizona State Retirement System) built to solve a problem standard finance tools weren’t designed for: private equity’s irregular, manager-controlled cash flow timing. Unlike public markets, PE investors don’t control when capital is called or returned - so conventional return metrics break down, and naive IRR calculations can fail outright when cash flows change sign more than once.</p>
+<p>The presentation covers the four core metrics used to evaluate PE fund performance - IRR (annualised return), TVPI and DPI (total and realised money multiples), and PME (Public Market Equivalent) - and walks through worked examples using kpolen’s functions (irr.z(), pme.irr(), ks.pme()) to calculate them on sample cash flow data. A closing analysis applies these metrics to five simulated fund vintages benchmarked against the S&amp;P 500, showing a key insight: a fund’s standalone return can look solid while still trailing what the same dollars would have earned in a public index on the same dates.</p>
 <p><a href="https://rpubs.com/reeceo/1429563" class="btn btn-outline-primary">View on RPubs</a></p>
 <hr>
 </section>
 <section id="article-summary-poster" class="level3">
 <h3 class="anchored" data-anchor-id="article-summary-poster">Article Summary Poster</h3>
-<p>This is a poster created using the package posterdown. It contains a brief summary of the article: The Split-Apply-Combine Strategy for Data Analysis by Hadley Wickham. This was a collaborative project, worked on with Tahana Akram, a fellow student in CMSC405.</p>
+<p>A research poster (built with posterdown in R) summarising Hadley Wickham’s 2011 Journal of Statistical Software paper, which introduced the split-apply-combine strategy as a unifying framework for data analysis. Wickham’s central argument is that matching computational tools to the abstract shape of a problem - rather than relying on ad hoc for-loops - reduces both the cognitive and mechanical effort of analysis. The plyr package operationalises this with a simple naming convention ([input][output]ply) covering every combination of arrays, data frames, and lists.</p>
+<p>Collaborative project with Tahana Akram for CMSC-405. My sections focused on the practical payoff of this approach: the four-step process for converting a one-off solution into a reusable plyr function, how plyr reduces cognitive overhead by preserving labels and letting users move freely between data structures, its performance trade-offs (including how parallelism can be layered in for large datasets), and a before/after visualization showing the practical effect of cleaning noisy time-series data.</p>
+<p>Working through this paper reinforced something that’s stuck with me beyond just R syntax: complex problems are usually just simple problems that haven’t been broken down yet. Wickham’s split-apply-combine logic - isolate the problem, solve it once, generalise, reassemble — is a pattern I now actively look for outside of data science too.</p>
 <p><a href="https://github.com/ADC-405-S26/Project_5_PaperPoster_Team_11.git" class="btn btn-outline-primary">View on GitHub</a> <a href="https://rpubs.com/reeceo/adc-poster" class="btn btn-outline-primary">View on RPubs</a></p>
 <hr>
 </section>
-<section id="r-package-pegap" class="level3">
-<h3 class="anchored" data-anchor-id="r-package-pegap">R-Package “pegap”</h3>
-<p>pegap is a package developed by myself in an effort to cover the gaps in private equity portfolio analysis in R. The name stems from this: “pe” = private equity, “gap” = gap in the field. Currently, the package contains the following functions:</p>
+<section id="pegap-closing-the-gaps-in-private-equity-portfolio-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="pegap-closing-the-gaps-in-private-equity-portfolio-analysis">pegap: Closing the Gaps in Private Equity Portfolio Analysis</h3>
+<p>An R package I built to fill functionality gaps in PE portfolio analysis - areas existing R tools like kpolen and PerformanceAnalytics don’t cover. The name is a contraction of “PE” (private equity) and “gap” (the gap in the field it addresses).</p>
+<p>pegap currently includes three functions:</p>
 <ul>
-<li>vintage_diversification_score() — scores how concentrated a PE portfolio is across vintage years using HHI</li>
-<li>unfunded_liability_schedule() — forecasts future capital calls across a 5-year schedule with a preset drawdown curve</li>
+<li>vintage_diversification_score() - scores how concentrated a portfolio is across vintage years using the Herfindahl-Hirschman Index (HHI), flagging over-exposure to any single vintage</li>
+<li>unfunded_liability_schedule() - forecasts future capital calls over a 5-year horizon using a preset drawdown curve, helping anticipate upcoming liquidity needs</li>
 <li>portfolio_plot() — visualises portfolio progress by vintage year as a scatterplot</li>
 </ul>
-<p>I intend to update this package post-graduation to include many more functions.</p>
 <p><a href="https://github.com/ADC-405-S26/pegap" class="btn btn-outline-primary">View on GitHub</a> <a href="https://adc-405-s26.github.io/pegap/" class="btn btn-outline-primary">View Package</a></p>
 <hr>
 </section>
-<section id="project-3---text-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="project-3---text-analysis">Project 3 - Text Analysis</h3>
-<p>This was a collaborative project with Nga Nguyen (Daisy), a fellow student. We aimed to use data visualisation and sentiment analysis to investigate trends within the Harry Potter Series, specifically within the text itself.</p>
+<section id="is-the-harry-potter-series-too-negative-for-children-a-text-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="is-the-harry-potter-series-too-negative-for-children-a-text-analysis">Is the Harry Potter Series Too Negative for Children? A Text Analysis</h3>
+<p>A text mining project (R, tidytext) investigating a long-running debate: whether the Harry Potter series is too dark for its young audience. Working with a four-part dataset of the series’ full text, characters, locations, and spells, we tracked the frequency of the three Unforgivable Curses across the series using regular expressions, then applied sentiment analysis using the NRC lexicon’s ten predefined emotion categories to all seven books.</p>
+<p>The curses don’t appear until Goblet of Fire (book 4), but sentiment analysis tells a more nuanced story — negative, positive, sadness, and anger are consistently the four most common emotions in every book, with negative dominating throughout. We were careful to flag a limitation in our own method, though: the word “harry” itself is tagged with negative emotions by the NRC lexicon, and given how frequently the name appears, this likely skews the negative/sadness/anger counts independent of the actual narrative tone.</p>
+<p>My contribution focused on tf-idf analysis to identify which characters are referenced by first vs.&nbsp;last name, confirming Harry, Ron, and Hermione as the three most-mentioned characters by a wide margin - and an animated plotly visualisation tracking name mentions across the series in 10-line windows, showing how individual characters get moments in the spotlight even as Harry remains the dominant presence.</p>
+<p>Collaborative project with Daisy Nguyen for CMSC-405.</p>
 <p><a href="https://github.com/ADC-405-S26/Project_3_TextAnalysis_Team_14.git" class="btn btn-outline-primary">View on GitHub</a></p>
 <hr>
 </section>
-<section id="project-2---sql" class="level3">
-<h3 class="anchored" data-anchor-id="project-2---sql">Project 2 - SQL</h3>
-<p>Working with Binh Vu, a classmate, this project was an introduction to SQL functions. We used SQL Queries, DuckDB, and Visualisation in RStudio to analyze the TidyTuesday survey data on how individuals interpret probabilistic language.</p>
+<section id="how-realistic-is-a-realistic-possibility-a-sql-analysis-of-probability-language" class="level3">
+<h3 class="anchored" data-anchor-id="how-realistic-is-a-realistic-possibility-a-sql-analysis-of-probability-language">How “Realistic” is a Realistic Possibility? A SQL Analysis of Probability Language</h3>
+<p>A database design and SQL analysis project exploring how people interpret everyday probability language - phrases like “might happen,” “little chance,” or “realistic possibility.” Working from a TidyTuesday survey dataset, we designed a relational database from scratch using duckdb, defining primary keys, constraints, and appropriate data types across three linked tables (absolute probability ratings, pairwise term comparisons, and respondent demographics) before loading and querying the data with SQL.</p>
+<p>My queries focused on response consistency and demographic effects: measuring how much individual respondents varied in their own ratings (some were highly consistent, others far more arbitrary), checking whether the pairwise comparison data was free of presentation bias, and testing whether age affected how probability terms were perceived — it largely didn’t, which mattered given the respondent pool skewed heavily toward middle-aged adults.</p>
+<p>My collaborator Binh’s work complemented this with a query on educational background skew and a ridgeline visualisation showing that judgments of “realistic possibility” vary enormously within countries, while converging on a similar median (~60/100) across them - a finding that captures the project’s central point well: probability language feels precise but is interpreted very loosely.</p>
+<p>Collaborative project with Binh Vu for CMSC-405.</p>
 <p><a href="https://github.com/ADC-405-S26/Project_2_SQL_Team_10.git" class="btn btn-outline-primary">View on GitHub</a></p>
 <hr>
 </section>
@@ -216,15 +232,16 @@ ul.task-list li input[type="checkbox"] {
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<section id="capstone-effect-of-legalising-recreational-marijuana-on-state-employment" class="level3 callout-body-container callout-body">
-<h3 class="anchored" data-anchor-id="capstone-effect-of-legalising-recreational-marijuana-on-state-employment">Capstone — Effect of Legalising Recreational Marijuana on State Employment</h3>
-<p>Research Question: Does legalising recreational marijuana have an impact on state-level employment?</p>
-<p>Methodology: Difference-in-Differences model using state and year fixed effects</p>
-<p>How: Utilised event study graphs, regression tables, and propensity score matching in RStudio</p>
-<p>Data: Tidied, wrangled, and processed over 300,000 observations across 25 variables.</p>
-<p>Final Dataset included economic, demographic, geographic controls for all 50 states between the years 2000-2022. These included variables such as GDP, Population, Race, and Region.</p>
-<p><a href="files/capstone.pdf" class="btn btn-outline-primary">View Capstone PDF</a></p>
+<section id="capstone-the-economic-impact-of-legalising-recreational-marijuana" class="level3 callout-body-container callout-body">
+<h3 class="anchored" data-anchor-id="capstone-the-economic-impact-of-legalising-recreational-marijuana">Capstone — The Economic Impact of Legalising Recreational Marijuana</h3>
+<p><strong>Research Question:</strong> Does legalising recreational marijuana have a causal impact on state-level employment?</p>
+<p><strong>Methodology:</strong> Designed and implemented a Difference-in-Differences (DiD) econometric model, utilising state and year fixed effects to isolate the policy’s impact.</p>
+<p><strong>Technical Execution:</strong> Conducted end-to-end data analysis in RStudio. Validated findings using event study graphs, comprehensive regression tables, and propensity score matching for robust causal inference.</p>
+<p><strong>Data Engineering:</strong> Built a comprehensive panel dataset spanning all 50 U.S. states from 2000 to 2022. Tidied, wrangled, and processed over 300,000 observations across 25 distinct variables. Final dataset contains 930 observations.</p>
+<p><strong>Variables &amp; Controls:</strong> Integrated critical economic, demographic, and geographic control variables, including state GDP, population dynamics, racial demographics, and regional classifications to ensure model accuracy.</p>
+<p><strong>Presentation of Findings:</strong> Results were rendered into a properly formatted research paper and then transformed into a presentation. The presentation was presented to lower-level economics students in the econometrics class.</p>
 <hr>
+<p><a href="files/ECON602_Reece_Capstone.pdf" class="btn btn-outline-primary">View Capstone (PDF)</a> <a href="files/Capstone_Final_Data.csv" class="btn btn-outline-primary">View Dataset (CSV)</a> <a href="files/Capstone_Final_Presentation.pptx" class="btn btn-outline-primary">View Presentation (PPTX)</a></p>
 </section>
 </div>
 </div>
@@ -241,7 +258,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <section id="research-presentation" class="level3 callout-body-container callout-body">
 <h3 class="anchored" data-anchor-id="research-presentation">Research Presentation</h3>
-<p><a href="files/GLST_Presentation.pdf" class="btn btn-outline-primary">View as PDF</a></p>
+<p>A presentation exploring the Nordic Model, an economic framework built to balance robust social safety nets with elements of neoliberal economic policies. Unlike purely neoliberal or anti-neoliberal systems, the Nordic approach doesn’t force a choice between public welfare and private enterprise - so nations can leverage globalization, deregulation, and privatization while maintaining high taxation and equitable income distribution.</p>
+<p>The presentation covers the core metrics used to evaluate the model’s economic performance - constant GDP per capita, social expenditures as a percentage of GDP, and income distribution (tracking 1%, 10%, and 50% wealth shares) - and walks through an analytical rebuttal to Baumol’s cost disease by modeling how privatizing businesses and outsourcing labor actually allows domestic employment to efficiently shift into welfare service production. A closing analysis applies this theoretical framework to historical import data across Scandinavian countries benchmarked against France, the UK, and the USA, surfacing a key insight: the Nordic Model offers developing economies a viable blueprint to participate in a globalized market while successfully maintaining social welfare.</p>
+<p><a href="files/GLST_Presentation.pdf" class="btn btn-outline-primary">View Presentation (PDF)</a></p>
 </section>
 </div>
 </div>
@@ -258,7 +277,10 @@ ul.task-list li input[type="checkbox"] {
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <section id="personal-sports-performance-analysis" class="level3 callout-body-container callout-body">
 <h3 class="anchored" data-anchor-id="personal-sports-performance-analysis">Personal Sports Performance Analysis</h3>
-<p><a href="files/ECON226_Reece_Final_Paper.pdf" class="btn btn-outline-primary">View PDF</a></p>
+<p>A research paper exploring my own competitive foil fencing performance, an econometric approach designed to uncover the statistical drivers behind successful actions and decisive touches. Unlike traditional, intuition-based training, this data-driven methodology isolates the precise effects of different tactical choices - so a fencer’s subjective combat techniques can be refined using objective statistical modeling.</p>
+<p>The paper covers the core variables used to evaluate bout performance - including action types (Straight Attacks, Parry-Ripostes, Retreats), accuracy metrics (Off-Target hits), and Right of Way - and walks through a logit regression model to calculate their exact impact on the probability of scoring a touch. A closing analysis applies this model to a custom dataset I built entirely from scratch by analyzing my own competition and practice footage, surfacing a key insight: my scoring odds are maximized by favoring straight attacks (yielding an 83% success rate) and adjusting my physical blade preparations to target the statistically vulnerable lower torso, rather than relying on retreats or defensive posturing.</p>
+<p>Looking back, I see clear opportunities to elevate the rigor of this analysis by refining both my econometric methodology and the data collection process. Most notably, my initial logic interpreted the logit regression coefficients as direct, additive percentages (e.g., adding a 39% baseline to a 44% action effect). I now realize this misrepresents how logistic models calculate non-linear changes in log-odds; moving forward, computing the true marginal effects would provide mathematically precise probability metrics. Additionally, addressing my own data quality by correcting known recording anomalies, introducing blind coding to eliminate subjective self-reporting bias, and adding control variables for external factors—like opponent skill level and bout fatigue—would transform this project from a simple personal diagnostic into a robust framework for combative sports analytics.</p>
+<p><a href="files/ECON226_Reece_Final_Paper.pdf" class="btn btn-outline-primary">View Paper (PDF)</a></p>
 </section>
 </div>
 </div>
@@ -275,7 +297,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <section id="final-research-paper" class="level3 callout-body-container callout-body">
 <h3 class="anchored" data-anchor-id="final-research-paper">Final Research Paper</h3>
-<p><a href="files/Fascism_Final_Paper_Reece.pdf" class="btn btn-outline-primary">View PDF</a></p>
+<p>A research paper exploring the economic architecture of Nazi Germany, analyzing how the regime’s rapid post-depression “recovery” was actually a deliberate, aggressive restructuring of the state into a centralized war machine. Unlike traditional economic models aimed at domestic prosperity or free-market stability, this analysis deconstructs how the pursuit of Lebensraum and autarky forced all economic policy to become subordinate to military conquest, masking massive structural deficits behind a facade of public works and nationalist propaganda.</p>
+<p>The paper covers the core mechanisms the regime used to manipulate the factors of production - including the monopolization of human capital through the Reich Labour Force (RAD), the circumvention of international banking laws via the MEFO bill scheme to hide a massive “shadow budget,” and the weaponization of trade through Hjalmar Schacht’s New Plan. By evaluating highly mercantilist bilateral barter agreements (such as the 1939 Romanian treaty) and the quantitative shift in the “Guns vs.&nbsp;Butter” paradigm, the research walks through how the state systematically extracted resources to fund extreme rearmament at the direct expense of civilian welfare. A closing analysis evaluates the fatal flaw of this “blitzkrieg economic model,” surfacing a key insight: the Nazi economy was a high-stakes financial gamble entirely dependent on swift, profitable military victories to pay off hidden debts, which ultimately collapsed under the weight of diminishing returns during prolonged conflicts like the 1941 invasion of the Soviet Union.</p>
+<p><a href="files/Fascism_Final_Paper_Reece.pdf" class="btn btn-outline-primary">View Paper (PDF)</a></p>
 </section>
 </div>
 </div>

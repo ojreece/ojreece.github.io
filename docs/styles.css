@@ -1,7 +1,10 @@
 /* css styles */
 
+/* this CSS file was created using the assistance of Claude given specific instructions */ 
+
 /* ── Core palette ── */
 /* Blending PE Institutional Navy with Quant Algorithmic Emerald */
+
 :root {
   --bg-primary:      #fdfdfd;  /* Clean institutional background */
   --bg-secondary:    #f4f6f8;  /* Subtle grey-blue for callouts/cards */
