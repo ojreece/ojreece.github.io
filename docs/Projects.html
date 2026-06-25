@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Note</strong>: Some of the projects below link to private GitHub repositories used for coursework, which are only accessible to members of the course. If a link doesn’t load for you, that’s why - I’m happy to share the source code directly upon request, so feel free to reach out.</p>
+<p><strong>Note</strong>: Some of the projects below are stored in GitHub repositories used for coursework, which are only accessible to members of the course. If a project interests you, I’m happy to share the source code directly upon request, so feel free to reach out.</p>
 <section id="kpolen-private-equity-portfolio-analysis-in-r" class="level3">
 <h3 class="anchored" data-anchor-id="kpolen-private-equity-portfolio-analysis-in-r">KPolen: Private Equity Portfolio Analysis in R</h3>
 <p>A Quarto/RevealJS presentation exploring kpolen, an R package by Karl Polen (former CIO of the Arizona State Retirement System) built to solve a problem standard finance tools weren’t designed for: private equity’s irregular, manager-controlled cash flow timing. Unlike public markets, PE investors don’t control when capital is called or returned - so conventional return metrics break down, and naive IRR calculations can fail outright when cash flows change sign more than once.</p>
@@ -185,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 <p>A research poster (built with posterdown in R) summarising Hadley Wickham’s 2011 Journal of Statistical Software paper, which introduced the split-apply-combine strategy as a unifying framework for data analysis. Wickham’s central argument is that matching computational tools to the abstract shape of a problem - rather than relying on ad hoc for-loops - reduces both the cognitive and mechanical effort of analysis. The plyr package operationalises this with a simple naming convention ([input][output]ply) covering every combination of arrays, data frames, and lists.</p>
 <p>Collaborative project with Tahana Akram for CMSC-405. My sections focused on the practical payoff of this approach: the four-step process for converting a one-off solution into a reusable plyr function, how plyr reduces cognitive overhead by preserving labels and letting users move freely between data structures, its performance trade-offs (including how parallelism can be layered in for large datasets), and a before/after visualization showing the practical effect of cleaning noisy time-series data.</p>
 <p>Working through this paper reinforced something that’s stuck with me beyond just R syntax: complex problems are usually just simple problems that haven’t been broken down yet. Wickham’s split-apply-combine logic - isolate the problem, solve it once, generalise, reassemble — is a pattern I now actively look for outside of data science too.</p>
-<p><a href="https://github.com/ADC-405-S26/Project_5_PaperPoster_Team_11.git" class="btn btn-outline-primary">View on GitHub</a> <a href="https://rpubs.com/reeceo/adc-poster" class="btn btn-outline-primary">View on RPubs</a></p>
+<p><a href="https://rpubs.com/reeceo/adc-poster" class="btn btn-outline-primary">View on RPubs</a></p>
 <hr>
 </section>
 <section id="pegap-closing-the-gaps-in-private-equity-portfolio-analysis" class="level3">
@@ -197,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 <li>unfunded_liability_schedule() - forecasts future capital calls over a 5-year horizon using a preset drawdown curve, helping anticipate upcoming liquidity needs</li>
 <li>portfolio_plot() — visualises portfolio progress by vintage year as a scatterplot</li>
 </ul>
-<p><a href="https://github.com/ADC-405-S26/pegap" class="btn btn-outline-primary">View on GitHub</a> <a href="https://adc-405-s26.github.io/pegap/" class="btn btn-outline-primary">View Package</a></p>
+<p><a href="https://adc-405-s26.github.io/pegap/" class="btn btn-outline-primary">View Package</a></p>
 <hr>
 </section>
 <section id="is-the-harry-potter-series-too-negative-for-children-a-text-analysis" class="level3">
@@ -206,7 +206,6 @@ ul.task-list li input[type="checkbox"] {
 <p>The curses don’t appear until Goblet of Fire (book 4), but sentiment analysis tells a more nuanced story — negative, positive, sadness, and anger are consistently the four most common emotions in every book, with negative dominating throughout. We were careful to flag a limitation in our own method, though: the word “harry” itself is tagged with negative emotions by the NRC lexicon, and given how frequently the name appears, this likely skews the negative/sadness/anger counts independent of the actual narrative tone.</p>
 <p>My contribution focused on tf-idf analysis to identify which characters are referenced by first vs.&nbsp;last name, confirming Harry, Ron, and Hermione as the three most-mentioned characters by a wide margin - and an animated plotly visualisation tracking name mentions across the series in 10-line windows, showing how individual characters get moments in the spotlight even as Harry remains the dominant presence.</p>
 <p>Collaborative project with Daisy Nguyen for CMSC-405.</p>
-<p><a href="https://github.com/ADC-405-S26/Project_3_TextAnalysis_Team_14.git" class="btn btn-outline-primary">View on GitHub</a></p>
 <hr>
 </section>
 <section id="how-realistic-is-a-realistic-possibility-a-sql-analysis-of-probability-language" class="level3">
@@ -215,7 +214,6 @@ ul.task-list li input[type="checkbox"] {
 <p>My queries focused on response consistency and demographic effects: measuring how much individual respondents varied in their own ratings (some were highly consistent, others far more arbitrary), checking whether the pairwise comparison data was free of presentation bias, and testing whether age affected how probability terms were perceived — it largely didn’t, which mattered given the respondent pool skewed heavily toward middle-aged adults.</p>
 <p>My collaborator Binh’s work complemented this with a query on educational background skew and a ridgeline visualisation showing that judgments of “realistic possibility” vary enormously within countries, while converging on a similar median (~60/100) across them - a finding that captures the project’s central point well: probability language feels precise but is interpreted very loosely.</p>
 <p>Collaborative project with Binh Vu for CMSC-405.</p>
-<p><a href="https://github.com/ADC-405-S26/Project_2_SQL_Team_10.git" class="btn btn-outline-primary">View on GitHub</a></p>
 <hr>
 </section>
 </div>

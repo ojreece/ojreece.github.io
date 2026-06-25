@@ -7,8 +7,8 @@ This page contains completed projects from my courses at Lawrence University.
 ::: {.callout-note collapse="true"}
 ## CMSC405: Advanced Data Computing
 
-**Note**: Some of the projects below link to private GitHub repositories used for coursework, which are only accessible to members of the course. 
-If a link doesn't load for you, that's why - I'm happy to share the source code directly upon request, so feel free to reach out.
+**Note**: Some of the projects below are stored in GitHub repositories used for coursework, which are only accessible to members of the course. 
+If a project interests you, I'm happy to share the source code directly upon request, so feel free to reach out.
 
 ### KPolen: Private Equity Portfolio Analysis in R
 
@@ -46,7 +46,6 @@ A research poster (built with posterdown in R) summarising Hadley Wickham's 2011
  complex problems are usually just simple problems that haven't been broken down yet. Wickham's split-apply-combine logic - 
  isolate the problem, solve it once, generalise, reassemble — is a pattern I now actively look for outside of data science too.
 
-[View on GitHub](https://github.com/ADC-405-S26/Project_5_PaperPoster_Team_11.git){.btn .btn-outline-primary}
 [View on RPubs](https://rpubs.com/reeceo/adc-poster){.btn .btn-outline-primary}
 
 ---
@@ -62,7 +61,6 @@ pegap currently includes three functions:
 - unfunded_liability_schedule() - forecasts future capital calls over a 5-year horizon using a preset drawdown curve, helping anticipate upcoming liquidity needs
 - portfolio_plot() — visualises portfolio progress by vintage year as a scatterplot
 
-[View on GitHub](https://github.com/ADC-405-S26/pegap){.btn .btn-outline-primary}
 [View Package](https://adc-405-s26.github.io/pegap/){.btn .btn-outline-primary}
 
 
@@ -86,8 +84,6 @@ in the spotlight even as Harry remains the dominant presence.
 
 Collaborative project with Daisy Nguyen for CMSC-405.
 
-[View on GitHub](https://github.com/ADC-405-S26/Project_3_TextAnalysis_Team_14.git){.btn .btn-outline-primary}
-
 ---
 
 ### How "Realistic" is a Realistic Possibility? A SQL Analysis of Probability Language
@@ -106,8 +102,6 @@ vary enormously within countries, while converging on a similar median (~60/100)
 language feels precise but is interpreted very loosely.
 
 Collaborative project with Binh Vu for CMSC-405. 
-
-[View on GitHub](https://github.com/ADC-405-S26/Project_2_SQL_Team_10.git){.btn .btn-outline-primary}
 
 ---
 
