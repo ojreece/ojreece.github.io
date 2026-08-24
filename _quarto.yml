@@ -16,10 +16,6 @@ website:
             text: Academic Projects
           - href: Personal_Projects.qmd
             text: Personal Projects
-      - href: Resume.qmd
-        text: Resume
-      - href: Education.qmd
-        text: Education
 format:
   html:
     theme:

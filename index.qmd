@@ -20,10 +20,10 @@ about:
 
 ## Welcome!
 
-I’m a recent graduate from Lawrence University and a former 4-year NCAA Varsity Fencer. 
-I built this portfolio to showcase the intersection of my two biggest drivers: analytical rigor and disciplined execution. 
-This site serves as a deep dive into my technical skill-set - 
-featuring predictive machine learning models, financial valuations, and my professional experience.
+Current MS students and a former 4-year NCAA Varsity Fencer. 
+I built this website to showcase my work, experience, passions, and capabilities outside of a resume. 
+At a glance, I stand on 3 core pillars: honesty, work ethic, and drive. It is these I hope to demonstrate
+through my actions and way of life, including in professional and academic settings. 
 
 If you are curious what's going on behind the curtain, feel free to check out my website's github repo! <br>
 
