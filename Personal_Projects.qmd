@@ -15,7 +15,8 @@ Recently, they signed a $6.5 million deal with the US government, giving the com
 business model into something (potentially) profitable. 
 
 In this analysis, I use an OLS Regression to analyse the stock's historical performance and an ordinal logistic regression 
-dive into the probability of specific risk levels. I then use a factor model to analyse the drivers of the company's underlying risk.  
+dive into the probability of specific risk levels. I then use a factor model to analyse the drivers of the company's underlying risk. 
+
 Moreover, I use Ridge Regression, Random Forest, XGBoost, LightGBM, and LSTM Network algorithms to predict 
 future performance. My main goal is to better understand how to analyse stocks using statistical modelling, while 
 also looking into the limitations of single-algorithm machine learning techniques when predicting stock performance. 
