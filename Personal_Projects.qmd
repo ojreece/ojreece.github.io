@@ -14,14 +14,15 @@ long suffered after immediate and rapid success, now residing as a penny stock t
 Recently, they signed a $6.5 million deal with the US government, giving the company a chance to pivot their
 business model into something (potentially) profitable. 
 
-In this analysis, I use an OLS Regression to analyse the stock's historical performance and a logistic regression 
-dive into their historical risk. Moreover, I use Random Forest, XGBoost, and LSTM Network algorithms to predict 
+In this analysis, I use an OLS Regression to analyse the stock's historical performance and an ordinal logistic regression 
+dive into the probability of specific risk levels. I then use a factor model to analyse the drivers of the company's underlying risk.  
+Moreover, I use Ridge Regression, Random Forest, XGBoost, LightGBM, and LSTM Network algorithms to predict 
 future performance. My main goal is to better understand how to analyse stocks using statistical modelling, while 
 also looking into the limitations of single-algorithm machine learning techniques when predicting stock performance. 
 
-My thesis is that XGBoost will perform best at predicting daily or weekly future metrics due to it's ability to handle 
-non-linear data well. That being said, I believe the LSTM network will perform best when predicting longer term overall
-trends due to it's strengths in pattern recognition over time. 
+My end-goal is not to have a perfect predictive model (although that would be nice). Rather, I intend to keep at this project
+for an extended period of time to deepen my understanding of the core mathematical concepts as well as my understanding of each 
+model - the benefits, the limitations, efficiency, etc.  
 
 This project is currently still underway, but feel free to check out my progress on my github repo!
 Once finished, I will also upload a rendered PDF output of my full report with visualisations and analysis. 
