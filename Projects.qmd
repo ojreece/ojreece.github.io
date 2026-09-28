@@ -73,13 +73,9 @@ Working with a four-part dataset of the series' full text, characters, locations
 Curses across the series using regular expressions, then applied sentiment analysis using the NRC lexicon's ten predefined emotion categories to 
 all seven books. 
 
-The curses don't appear until Goblet of Fire (book 4), but sentiment analysis tells a more nuanced story — negative, positive, 
-sadness, and anger are consistently the four most common emotions in every book, with negative dominating throughout. We were careful to flag 
-a limitation in our own method, though: the word "harry" itself is tagged with negative emotions by the NRC lexicon, and given how frequently 
-the name appears, this likely skews the negative/sadness/anger counts independent of the actual narrative tone.
+The curses don't appear until Goblet of Fire (book 4), but sentiment analysis tells a more nuanced story — negative, positive, sadness, and anger are consistently the four most common emotions in every book, with negative dominating throughout. We were careful to flag a limitation in our own method, though: the word "harry" itself is tagged with negative emotions by the NRC lexicon, and given how frequently the name appears, this likely skews the negative/sadness/anger counts independent of the actual narrative tone.
 
-My contribution focused on tf-idf analysis to identify which characters are referenced by first vs. last name, confirming Harry, Ron, and Hermione as the three most-mentioned 
-characters by a wide margin - and an animated plotly visualisation tracking name mentions across the series in 10-line windows, showing how individual characters get moments 
+My contribution focused on tf-idf analysis to identify which characters are referenced by first vs. last name, confirming Harry, Ron, and Hermione as the three most-mentioned characters by a wide margin - and an animated plotly visualisation tracking name mentions across the series in 10-line windows, showing how individual characters get moments 
 in the spotlight even as Harry remains the dominant presence.
 
 Collaborative project with Daisy Nguyen for CMSC-405.
@@ -88,18 +84,11 @@ Collaborative project with Daisy Nguyen for CMSC-405.
 
 ### How "Realistic" is a Realistic Possibility? A SQL Analysis of Probability Language
 
-A database design and SQL analysis project exploring how people interpret everyday probability language - phrases like "might happen," "little chance," 
-or "realistic possibility." Working from a TidyTuesday survey dataset, we designed a relational database from scratch using duckdb, defining primary keys, 
-constraints, and appropriate data types across three linked tables (absolute probability ratings, pairwise term comparisons, and respondent demographics) 
-before loading and querying the data with SQL.
+A database design and SQL analysis project exploring how people interpret everyday probability language - phrases like "might happen," "little chance," or "realistic possibility." Working from a TidyTuesday survey dataset, we designed a relational database from scratch using duckdb, defining primary keys, constraints, and appropriate data types across three linked tables (absolute probability ratings, pairwise term comparisons, and respondent demographics) before loading and querying the data with SQL.
 
-My queries focused on response consistency and demographic effects: measuring how much individual respondents varied in their own ratings (some were highly 
-consistent, others far more arbitrary), checking whether the pairwise comparison data was free of presentation bias, and testing whether age affected how 
-probability terms were perceived — it largely didn't, which mattered given the respondent pool skewed heavily toward middle-aged adults.
+My queries focused on response consistency and demographic effects: measuring how much individual respondents varied in their own ratings (some were highly consistent, others far more arbitrary), checking whether the pairwise comparison data was free of presentation bias, and testing whether age affected how probability terms were perceived — it largely didn't, which mattered given the respondent pool skewed heavily toward middle-aged adults.
 
-My collaborator Binh's work complemented this with a query on educational background skew and a ridgeline visualisation showing that judgments of "realistic possibility" 
-vary enormously within countries, while converging on a similar median (~60/100) across them - a finding that captures the project's central point well: probability 
-language feels precise but is interpreted very loosely.
+My collaborator Binh's work complemented this with a query on educational background skew and a ridgeline visualisation showing that judgments of "realistic possibility" vary enormously within countries, while converging on a similar median (~60/100) across them - a finding that captures the project's central point well: probability language feels precise but is interpreted very loosely.
 
 Collaborative project with Binh Vu for CMSC-405. 
 
@@ -154,22 +143,13 @@ insight: the Nordic Model offers developing economies a viable blueprint to part
 
 ### Personal Sports Performance Analysis
 
-A research paper exploring my own competitive foil fencing performance, an econometric approach designed to uncover the statistical drivers behind successful 
-actions and decisive touches. Unlike traditional, intuition-based training, this data-driven methodology isolates the precise effects of different tactical 
-choices - so a fencer's subjective combat techniques can be refined using objective statistical modeling.
+A research paper exploring my own competitive foil fencing performance, an econometric approach designed to uncover the statistical drivers behind successful actions and decisive touches. Unlike traditional, intuition-based training, this data-driven methodology isolates the precise effects of different tactical choices - so a fencer's subjective combat techniques can be refined using objective statistical modeling.
 
-The paper covers the core variables used to evaluate bout performance - including action types (Straight Attacks, Parry-Ripostes, Retreats), accuracy metrics 
-(Off-Target hits), and Right of Way - and walks through a logit regression model to calculate their exact impact on the probability of scoring a touch. 
-A closing analysis applies this model to a custom dataset I built entirely from scratch by analyzing my own competition and practice footage, surfacing a key insight: 
-my scoring odds are maximized by favoring straight attacks (yielding an 83% success rate) and adjusting my physical blade preparations to target the statistically vulnerable 
+The paper covers the core variables used to evaluate bout performance - including action types (Straight Attacks, Parry-Ripostes, Retreats), accuracy metrics (Off-Target hits), and Right of Way - and walks through a logit regression model to calculate their exact impact on the probability of scoring a touch. 
+A closing analysis applies this model to a custom dataset I built entirely from scratch by analyzing my own competition and practice footage, surfacing a key insight: my scoring odds are maximized by favoring straight attacks (yielding an 83% success rate) and adjusting my physical blade preparations to target the statistically vulnerable 
 lower torso, rather than relying on retreats or defensive posturing.
 
-Looking back, I see clear opportunities to elevate the rigor of this analysis by refining both my econometric methodology and the data collection process.
- Most notably, my initial logic interpreted the logit regression coefficients as direct, additive percentages (e.g., adding a 39% baseline to a 44% action effect). I now 
- realize this misrepresents how logistic models calculate non-linear changes in log-odds; moving forward, computing the true marginal effects would provide mathematically 
- precise probability metrics. Additionally, addressing my own data quality by correcting known recording anomalies, introducing blind coding to eliminate subjective self-reporting 
- bias, and adding control variables for external factors—like opponent skill level and bout fatigue—would transform this project from a simple personal diagnostic into a robust 
- framework for combative sports analytics.
+Looking back, I see clear opportunities to elevate the rigor of this analysis by refining both my econometric methodology and the data collection process. Most notably, my initial logic interpreted the logit regression coefficients as direct, additive percentages (e.g., adding a 39% baseline to a 44% action effect). I now  realize this misrepresents how logistic models calculate non-linear changes in log-odds; moving forward, computing the true marginal effects would provide mathematically precise probability metrics. Additionally, addressing my own data quality by correcting known recording anomalies, introducing blind coding to eliminate subjective self-reporting bias, and adding control variables for external factors (like opponent skill level and bout fatigue) would transform this project from a simple personal diagnostic into a robust framework for combative sports analytics.
 
 [View Paper (PDF)](files/ECON226_Reece_Final_Paper.pdf){.btn .btn-outline-primary}
 :::
@@ -179,17 +159,11 @@ Looking back, I see clear opportunities to elevate the rigor of this analysis by
 
 ### Final Research Paper
 
-A research paper exploring the economic architecture of Nazi Germany, analyzing how the regime's rapid post-depression "recovery" was actually a deliberate, 
-aggressive restructuring of the state into a centralized war machine. Unlike traditional economic models aimed at domestic prosperity or free-market stability, 
-this analysis deconstructs how the pursuit of Lebensraum and autarky forced all economic policy to become subordinate to military conquest, masking massive structural 
-deficits behind a facade of public works and nationalist propaganda.
+A research paper exploring the economic architecture of Nazi Germany, analyzing how the regime's rapid post-depression "recovery" was actually a deliberate, aggressive restructuring of the state into a centralized war machine. Unlike traditional economic models aimed at domestic prosperity or free-market stability, this analysis deconstructs how the pursuit of Lebensraum and autarky forced all economic policy to become subordinate to military conquest, masking massive structural deficits behind a facade of public works and nationalist propaganda.
 
-The paper covers the core mechanisms the regime used to manipulate the factors of production - including the monopolization of human capital through the Reich Labour 
-Force (RAD), the circumvention of international banking laws via the MEFO bill scheme to hide a massive "shadow budget," and the weaponization of trade through Hjalmar 
-Schacht's New Plan. By evaluating highly mercantilist bilateral barter agreements (such as the 1939 Romanian treaty) and the quantitative shift in the "Guns vs. Butter" 
-paradigm, the research walks through how the state systematically extracted resources to fund extreme rearmament at the direct expense of civilian welfare. A closing analysis 
-evaluates the fatal flaw of this "blitzkrieg economic model," surfacing a key insight: the Nazi economy was a high-stakes financial gamble entirely dependent on swift, profitable 
-military victories to pay off hidden debts, which ultimately collapsed under the weight of diminishing returns during prolonged conflicts like the 1941 invasion of the Soviet Union.
+The paper covers the core mechanisms the regime used to manipulate the factors of production - including the monopolization of human capital through the Reich Labour Force (RAD), the circumvention of international banking laws via the MEFO bill scheme to hide a massive "shadow budget," and the weaponization of trade through Hjalmar 
+Schacht's New Plan. By evaluating highly mercantilist bilateral barter agreements (such as the 1939 Romanian treaty) and the quantitative shift in the "Guns vs. Butter" paradigm, the research walks through how the state systematically extracted resources to fund extreme rearmament at the direct expense of civilian welfare. A closing analysis 
+evaluates the fatal flaw of this "blitzkrieg economic model," surfacing a key insight: the Nazi economy was a high-stakes financial gamble entirely dependent on swift, profitable military victories to pay off hidden debts, which ultimately collapsed under the weight of diminishing returns during prolonged conflicts like the 1941 invasion of the Soviet Union.
 
 [View Paper (PDF)](files/Fascism_Final_Paper_Reece.pdf){.btn .btn-outline-primary}
 :::
