@@ -15,7 +15,7 @@ website:
           - href: Projects.qmd
             text: Undergraduate Projects
           - href: MSF_Projects.qmd
-          - href: Graduate Projects
+            text: Graduate Projects
           - href: Personal_Projects.qmd
             text: Personal Projects
 format:

@@ -46,4 +46,5 @@ I begin this project in R, and as I develop my python skills further I plan to r
 
 Furthermore, while doing this project in R, I am not simply using the functions built in that would help speed up the creation of the PCA, even though that would be more efficient. Instead I am doing the majority of the math step by step such that I gain a better understanding of the underlying theory. WHen I transition to python, I will skip this and just use the simpler steps, using the built in functions. 
 
+[View Progress](https://github.com/ojreece/Factor_Model_PCA){.btn .btn-outline-primary}
 :::
