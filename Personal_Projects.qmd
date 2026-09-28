@@ -48,3 +48,14 @@ Furthermore, while doing this project in R, I am not simply using the functions 
 
 [View Progress](https://github.com/ojreece/Factor_Model_PCA){.btn .btn-outline-primary}
 :::
+
+
+::: {.callout-note collapse="true"}
+## Target DCF
+
+In this project, I aim to create a DCF for Target using Microsoft Excel. This is my first attempt at a DCF, and as such will be using AI as an educator. 
+
+**NOTE**: I AM NOT USING AI TO COMPLETE THE WORKBOOK FOR ME. I am using it to walk me through step by step the process.
+
+This project will begin as soon as the Factor Model is complete - this is a placeholder and reminder to self.
+:::
