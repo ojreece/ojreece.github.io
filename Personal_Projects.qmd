@@ -6,7 +6,7 @@ This page is dedicated to projects I have undertaken outside of my formal studie
 
 
 ::: {.callout-note collapse="true"}
-## Ocean Power Technologies (OPTT): Machine Learning and Risk Modeling
+## **IN PROGRESS:** Ocean Power Technologies (OPTT): Machine Learning and Risk Modeling
 
 In this project, I analyse the stock ticker OPTT (Ocean Power Technologies). It is a stock that has 
 long suffered after immediate and rapid success, now residing as a penny stock trading for less than $0.50.
@@ -33,7 +33,7 @@ Once finished, I will also upload a rendered PDF output of my full report with v
 
 
 ::: {.callout-note collapse="true"}
-## Risk Factor Modelling with Principal Component Analysis
+## **IN PROGESS:** Risk Factor Modelling with Principal Component Analysis
 
 In this project, my goal is simple: construct a basic factor model to determine risk for the S&P500. 
 
@@ -50,7 +50,7 @@ Furthermore, while doing this project in R, I am not simply using the functions 
 
 
 ::: {.callout-note collapse="true"}
-## Target DCF
+## **SOON:** Target DCF
 
 In this project, I aim to create a DCF for Target using Microsoft Excel. This is my first attempt at a DCF, and as such will be using AI as an educator. 
 
@@ -58,3 +58,4 @@ In this project, I aim to create a DCF for Target using Microsoft Excel. This is
 
 This project will begin as soon as the Factor Model is complete - this is a placeholder and reminder to self.
 :::
+
