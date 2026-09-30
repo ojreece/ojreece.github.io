@@ -1,0 +1,86 @@
+<!-- disclaimer: I do not know HTML this was made with AI prompting -->
+```{=html}
+<style>
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Hard hide any stray p tags or empty elements Quarto tries to inject */
+.interest-grid > p,
+.interest-grid > :empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.interest-row {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-secondary, #f4f6f8);
+  border: 2px solid #caf8ea;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.interest-row:hover {
+  background-color: #ffffff;
+  border-color: var(--emerald-quant, #0d9488);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.08);
+}
+
+.interest-left {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.interest-title {
+  color: var(--navy-dark, #0f172a);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.interest-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.chevron-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border: 1px solid #caf8ea;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--navy-mid, #334155);
+  font-size: 1.2rem;
+  line-height: 1;
+  transition: all 0.2s ease;
+}
+
+.interest-row:hover .chevron-icon {
+  background-color: var(--emerald-quant, #0d9488);
+  border-color: var(--emerald-quant, #0d9488);
+  color: #ffffff;
+}
+</style>
+
+<div class="interest-grid"><a class="interest-row" href="extracurricular/snowboarding.html"><div class="interest-left"><span class="emerald-dot"></span><span class="interest-title">Snowboarding</span></div><div class="interest-right"><div class="chevron-icon">&rsaquo;</div></div></a><a class="interest-row" href="extracurricular/biking.html"><div class="interest-left"><span class="emerald-dot"></span><span class="interest-title">Biking</span></div><div class="interest-right"><div class="chevron-icon">&rsaquo;</div></div></a><a class="interest-row" href="extracurricular/soccer.html"><div class="interest-left"><span class="emerald-dot"></span><span class="interest-title">Soccer: YNWA!</span></div><div class="interest-right"><div class="chevron-icon">&rsaquo;</div></div></a><a class="interest-row" href="extracurricular/fencing.html"><div class="interest-left"><span class="emerald-dot"></span><span class="interest-title">Fencing</span></div><div class="interest-right"><div class="chevron-icon">&rsaquo;</div></div></a><a class="interest-row" href="extracurricular/hiking.html"><div class="interest-left"><span class="emerald-dot"></span><span class="interest-title">Hiking</span></div><div class="interest-right"><div class="chevron-icon">&rsaquo;</div></div></a><a class="interest-row" href="extracurricular/camping.html"><div class="interest-left"><span class="emerald-dot"></span><span class="interest-title">Camping</span></div><div class="interest-right"><div class="chevron-icon">&rsaquo;</div></div></a><a class="interest-row" href="extracurricular/poker.html"><div class="interest-left"><span class="emerald-dot"></span><span class="interest-title">Poker</span></div><div class="interest-right"><div class="chevron-icon">&rsaquo;</div></div></a></div>

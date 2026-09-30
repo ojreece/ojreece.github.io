@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>education – Oliver Reece</title>
+<title>extracurricular – Oliver Reece</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -119,6 +119,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./Extracurricular.html" aria-current="page"> 
+<span class="menu-text">Interests!</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -130,14 +134,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#undergraduate-studies" id="toc-undergraduate-studies" class="nav-link active" data-scroll-target="#undergraduate-studies">Undergraduate Studies</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -145,32 +143,157 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="undergraduate-studies" class="level2">
-<h2 class="anchored" data-anchor-id="undergraduate-studies">Undergraduate Studies</h2>
-<p><span style="font-size: 1.2em;"><strong>Lawrence University</strong></span> | Appleton, WI | Sept 2022 - June 2026 <br> <em>B.A. in Economics</em>, <em>Minor in Statistics &amp; Data Science</em> <br> <strong>GPA:</strong> 3.4/4.0</p>
-<p><strong>Data Analytics &amp; ML Coursework:</strong></p>
-<ul>
-<li>Statistical Machine Learning</li>
-<li>Data Scientific Programming</li>
-<li>Quantitative Decision Making</li>
-<li>Advanced Data Computing</li>
-</ul>
-<p><strong>Economics &amp; Finance Coursework:</strong></p>
-<ul>
-<li>Advanced Econometrics and Modelling</li>
-<li>Foundations of Financial Management</li>
-<li>Micro/Macroeconomics</li>
-<li>Fundamentals of Accounting</li>
-</ul>
-<p><strong>Extracurricular:</strong></p>
-<ul>
-<li>Men’s NCAA Fencing Team (2022-2026)</li>
-<li>Lawrence University Investment Club (2026)</li>
-</ul>
-<hr>
+<!-- disclaimer: I do not know HTML this was made with AI prompting -->
+<style>
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* Hard hide any stray p tags or empty elements Quarto tries to inject */
+.interest-grid > p,
+.interest-grid > :empty {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .interest-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.interest-row {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-secondary, #f4f6f8);
+  border: 2px solid #caf8ea;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.interest-row:hover {
+  background-color: #ffffff;
+  border-color: var(--emerald-quant, #0d9488);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.08);
+}
+
+.interest-left {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.interest-title {
+  color: var(--navy-dark, #0f172a);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.interest-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.chevron-icon {
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  border: 1px solid #caf8ea;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--navy-mid, #334155);
+  font-size: 1.2rem;
+  line-height: 1;
+  transition: all 0.2s ease;
+}
+
+.interest-row:hover .chevron-icon {
+  background-color: var(--emerald-quant, #0d9488);
+  border-color: var(--emerald-quant, #0d9488);
+  color: #ffffff;
+}
+</style>
+<div class="interest-grid">
+<a class="interest-row" href="extracurricular/snowboarding.html">
+<div class="interest-left">
+<span class="emerald-dot"></span><span class="interest-title">Snowboarding</span>
+</div>
+<div class="interest-right">
+<div class="chevron-icon">
+›
+</div>
+</div>
+</a><a class="interest-row" href="extracurricular/biking.html">
+<div class="interest-left">
+<span class="emerald-dot"></span><span class="interest-title">Biking</span>
+</div>
+<div class="interest-right">
+<div class="chevron-icon">
+›
+</div>
+</div>
+</a><a class="interest-row" href="extracurricular/soccer.html">
+<div class="interest-left">
+<span class="emerald-dot"></span><span class="interest-title">Soccer: YNWA!</span>
+</div>
+<div class="interest-right">
+<div class="chevron-icon">
+›
+</div>
+</div>
+</a><a class="interest-row" href="extracurricular/fencing.html">
+<div class="interest-left">
+<span class="emerald-dot"></span><span class="interest-title">Fencing</span>
+</div>
+<div class="interest-right">
+<div class="chevron-icon">
+›
+</div>
+</div>
+</a><a class="interest-row" href="extracurricular/hiking.html">
+<div class="interest-left">
+<span class="emerald-dot"></span><span class="interest-title">Hiking</span>
+</div>
+<div class="interest-right">
+<div class="chevron-icon">
+›
+</div>
+</div>
+</a><a class="interest-row" href="extracurricular/camping.html">
+<div class="interest-left">
+<span class="emerald-dot"></span><span class="interest-title">Camping</span>
+</div>
+<div class="interest-right">
+<div class="chevron-icon">
+›
+</div>
+</div>
+</a><a class="interest-row" href="extracurricular/poker.html">
+<div class="interest-left">
+<span class="emerald-dot"></span><span class="interest-title">Poker</span>
+</div>
+<div class="interest-right">
+<div class="chevron-icon">
+›
+</div>
+</div>
+</a>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

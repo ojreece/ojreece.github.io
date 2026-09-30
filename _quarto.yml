@@ -18,6 +18,8 @@ website:
             text: Graduate Projects
           - href: Personal_Projects.qmd
             text: Personal Projects
+      - href: Extracurricular.qmd
+        text: Interests!
 format:
   html:
     theme:
