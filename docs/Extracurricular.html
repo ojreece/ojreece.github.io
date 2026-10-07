@@ -186,6 +186,11 @@ ul.task-list li input[type="checkbox"] {
   box-shadow: 0 4px 12px rgba(13, 148, 136, 0.08);
 }
 
+.interest-row.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 .interest-left {
   display: flex;
   align-items: center;
@@ -236,15 +241,6 @@ ul.task-list li input[type="checkbox"] {
 ›
 </div>
 </div>
-</a><a class="interest-row" href="extracurricular/biking.html">
-<div class="interest-left">
-<span class="emerald-dot"></span><span class="interest-title">Biking</span>
-</div>
-<div class="interest-right">
-<div class="chevron-icon">
-›
-</div>
-</div>
 </a><a class="interest-row" href="extracurricular/soccer.html">
 <div class="interest-left">
 <span class="emerald-dot"></span><span class="interest-title">Soccer: YNWA!</span>
@@ -281,9 +277,9 @@ ul.task-list li input[type="checkbox"] {
 ›
 </div>
 </div>
-</a><a class="interest-row" href="extracurricular/poker.html">
+</a><a class="interest-row" href="extracurricular/travel.html">
 <div class="interest-left">
-<span class="emerald-dot"></span><span class="interest-title">Poker</span>
+<span class="emerald-dot"></span><span class="interest-title">Travel</span>
 </div>
 <div class="interest-right">
 <div class="chevron-icon">
@@ -291,6 +287,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </a>
+<div class="interest-row disabled">
+<div class="interest-left">
+<span class="emerald-dot"></span><span class="interest-title">Biking</span>
+</div>
+</div>
+<div class="interest-row disabled">
+<div class="interest-left">
+<span class="emerald-dot"></span><span class="interest-title">Poker</span>
+</div>
+</div>
 </div>
 
 

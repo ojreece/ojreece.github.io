@@ -39,23 +39,30 @@ In this project, my goal is simple: construct a basic factor model to determine 
 
 I use principal component analysis because it allows me to compress many correlated variables into a collection of perfectly uncorrelated drivers of risk.
 
-I also use CAPM, 3-factor and 5-factor models to act as a point of comparison.
+I also use CAPM, 3-factor and 5-factor models to act as a point of comparison, with a final comparison model incorporating risk free assets (bonds). 
 
 I begin this project in R, and as I develop my python skills further I plan to recreate the project in python. My reasoning is that python will be more useful to understand in a professional finance setting. 
 
 Furthermore, while doing this project in R, I am not simply using the functions built in that would help speed up the creation of the PCA, even though that would be more efficient. Instead I am doing the majority of the math step by step such that I gain a better understanding of the underlying theory. WHen I transition to python, I will skip this and just use the simpler steps, using the built in functions. 
+
+Credit for the inspiration behind this project:
+
+- Professor Robert Kissell (Using PCA for Factor Model)
+- Professor Nusret Cakici (Factor Model Foundation, Arguments against using PCA)
+- Professor Michael Cheah (Addition of bonds)
+
 
 [View Progress](https://github.com/ojreece/Factor_Model_PCA){.btn .btn-outline-primary}
 :::
 
 
 ::: {.callout-note collapse="true"}
-## **SOON:** Target DCF
+## Target DCF
 
-In this project, I aim to create a DCF for Target using Microsoft Excel. This is my first attempt at a DCF, and as such will be using AI as an educator. 
+In this project, I create a DCF for Target using Microsoft Excel. This was my first attempt at a DCF, and as such I used AI as an educator. I also used this youtube video as a guideline before starting anything: [YouTube](https://www.youtube.com/watch?v=gLULdxrS-CU&t=278s)
 
-**NOTE**: I AM NOT USING AI TO COMPLETE THE WORKBOOK FOR ME. I am using it to walk me through step by step the process.
+**NOTE**: I AM NOT USING AI TO COMPLETE THE WORKBOOK FOR ME. I am using it to walk me through the process step by step.
 
-This project will begin as soon as the Factor Model is complete - this is a placeholder and reminder to self.
+[View Excel File (.xlsx)](files/DCF_Target.xlsx){.btn .btn-outline-primary}
 :::
 

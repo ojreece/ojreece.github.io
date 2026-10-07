@@ -32,19 +32,12 @@ dollars would have earned in a public index on the same dates.
 A research poster (built with posterdown in R) summarising Hadley Wickham's 2011 Journal of Statistical Software paper,
  which introduced the split-apply-combine strategy as a unifying framework for data analysis. Wickham's central argument 
  is that matching computational tools to the abstract shape of a problem - rather than relying on ad hoc for-loops - 
- reduces both the cognitive and mechanical effort of analysis. The plyr package operationalises this with a simple naming 
- convention ([input][output]ply) covering every combination of arrays, data frames, and lists. 
+ reduces both the cognitive and mechanical effort of analysis. The plyr package operationalises this with a simple naming convention ([input][output]ply) covering every combination of arrays, data frames, and lists. 
  
- Collaborative project with 
- Tahana Akram for CMSC-405. My sections focused on the practical payoff of this approach: the four-step process for 
- converting a one-off solution into a reusable plyr function, how plyr reduces cognitive overhead by preserving labels 
- and letting users move freely between data structures, its performance trade-offs (including how parallelism can be 
- layered in for large datasets), and a before/after visualization showing the practical effect of cleaning noisy 
- time-series data. 
+ Collaborative project with Tahana Akram for CMSC-405. My sections focused on the practical payoff of this approach: the four-step process for converting a one-off solution into a reusable plyr function, how plyr reduces cognitive overhead by preserving labels and letting users move freely between data structures, its performance trade-offs (including how parallelism can be layered in for large datasets), and a before/after visualization showing the practical effect of cleaning noisy time-series data. 
  
- Working through this paper reinforced something that's stuck with me beyond just R syntax: 
- complex problems are usually just simple problems that haven't been broken down yet. Wickham's split-apply-combine logic - 
- isolate the problem, solve it once, generalise, reassemble — is a pattern I now actively look for outside of data science too.
+ Working through this paper reinforced something that's stuck with me beyond just R syntax: complex problems are usually just simple problems that haven't been broken down yet. Wickham's split-apply-combine logic - isolate the problem
+ solve it once, generalise, reassemble - is a pattern I now actively look for outside of data science too.
 
 [View on RPubs](https://rpubs.com/reeceo/adc-poster){.btn .btn-outline-primary}
 
