@@ -41,7 +41,7 @@ I use principal component analysis because it allows me to compress many correla
 
 I also use CAPM, 3-factor and 5-factor models to act as a point of comparison, with a final comparison model incorporating risk free assets (bonds). 
 
-I begin this project in R, and as I develop my python skills further I plan to recreate the project in python. My reasoning is that python will be more useful to understand in a professional finance setting. 
+I begin this project in R, and as I develop my python skills further I plan to recreate the project in python. My reasoning is that python will be more useful to understand in a professional finance setting. Furthermore, I started this project using a simplified PCA build using a 3-stock portfolio, with each chosen company stemming from a different sector. This is destined to produce bias-full and inaccurate projections because 1. there is no dimensional-reduction, 2. it leads to results that are highly uniterpretable - meaning it would be better to use other methods. That being said, I did it as it allowed me to think through the framework needed before making it more complex. 
 
 Furthermore, while doing this project in R, I am not simply using the functions built in that would help speed up the creation of the PCA, even though that would be more efficient. Instead I am doing the majority of the math step by step such that I gain a better understanding of the underlying theory. WHen I transition to python, I will skip this and just use the simpler steps, using the built in functions. 
 
@@ -53,6 +53,7 @@ Credit for the inspiration behind this project:
 
 
 [View Progress](https://github.com/ojreece/Factor_Model_PCA){.btn .btn-outline-primary}
+<!-- [Report & Findings](files/_________.pdf){.btn .btn-outline-primary} -->
 :::
 
 
